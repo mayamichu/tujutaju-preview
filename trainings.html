@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trainings — Tujutaju</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#fff}
+.tt-page{--tt-blue:#626E98;--tt-blue-soft:#EBECF2;--tt-blue-mid:#C5CADB;--tt-yellow:#FFE193;--tt-pink:#EEBCBC;--tt-pink-btn:#FFD3DE;--tt-yellow-bg:#FFF4D662;--tt-pink-bg:#FFD6E038;--tt-white:#FFFFFF;--tt-gap-section:44px;font-family:Poppins,sans-serif;color:var(--tt-blue);font-size:15px}
+.tt-page *{box-sizing:border-box}.tt-container{width:min(1160px,calc(100% - 48px));margin:0 auto}.tt-kicker{margin:0 0 16px;font-weight:700;line-height:1.4}.tt-title{margin:0;font-size:48px;line-height:1.26;font-weight:700;color:var(--tt-pink)}.tt-section-title{margin:0;font-size:40px;line-height:1.16;font-weight:700}.tt-copy{font-size:15px;line-height:1.65}.tt-button{display:inline-flex;align-items:center;justify-content:center;margin-top:26px;padding:13px 24px;border-radius:0 20px 20px 20px;background:var(--tt-yellow);color:#fff;text-decoration:none;font-size:13px;line-height:1;font-weight:700;letter-spacing:.06em;text-transform:uppercase;transition:.2s ease}.tt-button:hover{background:var(--tt-pink-btn);color:var(--tt-blue);transform:translateY(-2px)}
+.tt-hero{padding:72px 0 0}.tt-hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:end}.tt-hero-copy-right{padding:0 38px}.tt-hero-copy-right p{margin:0 0 8px;line-height:1.7}.tt-hero-copy-right p:last-child{margin:16px 0 0;font-weight:700}
+.tt-intro{padding:40px 0 0}.tt-intro-panel{background:var(--tt-blue-soft);border-radius:70px 70px 70px 0;padding:54px 58px;display:grid;grid-template-columns:.86fr 1.14fr;gap:72px;align-items:start}.tt-intro .tt-section-title{color:var(--tt-blue)}.tt-intro p{margin:0 0 13px;line-height:1.65}.tt-intro p:last-child{margin-bottom:0}
+.tt-learn{padding:var(--tt-gap-section) 0 0}.tt-learn-heading{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:end;margin-bottom:26px}.tt-learn-heading .tt-section-title{color:var(--tt-pink)}.tt-learn-heading p{margin:0;line-height:1.65}.tt-learn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tt-learn-card{min-height:240px;padding:30px 28px}.tt-learn-card:nth-child(1),.tt-learn-card:nth-child(4){background:var(--tt-blue-soft)}.tt-learn-card:nth-child(2),.tt-learn-card:nth-child(5){background:var(--tt-pink-bg)}.tt-learn-card:nth-child(3),.tt-learn-card:nth-child(6){background:var(--tt-yellow-bg)}.tt-learn-card:nth-child(1){border-radius:50px 50px 50px 0}.tt-learn-card:nth-child(2){border-radius:50px 50px 0 50px}.tt-learn-card:nth-child(3){border-radius:50px 0 50px 50px}.tt-learn-card:nth-child(4){border-radius:0 50px 50px 50px}.tt-learn-card:nth-child(5){border-radius:50px 0 50px 50px}.tt-learn-card:nth-child(6){border-radius:50px 50px 0 50px}.tt-learn-card h3{margin:0 0 12px;font-size:24px;line-height:1.28}.tt-learn-card p{margin:0;line-height:1.62}
+.tt-how{padding:var(--tt-gap-section) 0 0}.tt-how-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:84px;align-items:start}.tt-how .tt-section-title{color:var(--tt-yellow)}.tt-how-list{display:grid;gap:26px}.tt-how-item{display:grid;grid-template-columns:54px 1fr;gap:20px;align-items:start}.tt-num{width:54px;height:54px;border-radius:50px 50px 50px 0;background:var(--tt-pink-bg);display:flex;align-items:center;justify-content:center;font-weight:700}.tt-how-item:nth-child(2) .tt-num{background:var(--tt-yellow-bg);border-radius:50px 50px 0 50px}.tt-how-item:nth-child(3) .tt-num{background:var(--tt-blue-soft);border-radius:50px 0 50px 50px}.tt-how-item h3{margin:0 0 8px;font-size:24px;line-height:1.28}.tt-how-item p{margin:0;line-height:1.65}
+.tt-formats{padding:var(--tt-gap-section) 0 0}.tt-formats .tt-section-title{color:var(--tt-pink);margin-bottom:26px}.tt-format-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tt-format-card{padding:32px 28px 30px;min-height:390px;display:flex;flex-direction:column}.tt-format-card:nth-child(1){background:var(--tt-blue-soft);border-radius:60px 60px 60px 0}.tt-format-card:nth-child(2){background:var(--tt-pink-bg);border-radius:60px 60px 0 60px}.tt-format-card:nth-child(3){background:var(--tt-yellow-bg);border-radius:60px 0 60px 60px}.tt-format-card h3{margin:0 0 10px;font-size:28px;line-height:1.25}.tt-format-card .tt-sub{margin:0 0 18px;font-weight:700}.tt-format-card p{margin:0 0 13px;line-height:1.62}.tt-format-meta{margin-top:auto!important;padding-top:18px;font-weight:700}.tt-secondary-link{display:inline-flex;align-self:flex-start;margin-top:18px;padding:6px 16px;border-radius:16px 0 16px 16px;color:var(--tt-blue);font-weight:700;text-decoration:none}.tt-format-card:nth-child(1) .tt-secondary-link{background:var(--tt-blue-mid)}.tt-format-card:nth-child(2) .tt-secondary-link{background:var(--tt-pink)}.tt-format-card:nth-child(3) .tt-secondary-link{background:var(--tt-yellow)}
+.tt-profile{padding:var(--tt-gap-section) 0 0}.tt-profile-panel{background:var(--tt-pink-bg);border-radius:70px 70px 70px 0;padding:52px 58px;display:grid;grid-template-columns:.9fr 1.1fr;gap:76px;align-items:start}.tt-profile .tt-section-title{color:var(--tt-pink)}.tt-profile p{margin:0 0 12px;line-height:1.65}.tt-profile p:last-child{margin-bottom:0}
+.tt-benefits{padding:var(--tt-gap-section) 0 0}.tt-benefits .tt-section-title{color:var(--tt-yellow);margin-bottom:24px}.tt-benefit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tt-benefit{padding:26px 24px;background:#fff;border:1px solid #ECEEF4;border-radius:30px}.tt-benefit h3{margin:0 0 9px;font-size:21px;line-height:1.3}.tt-benefit p{margin:0;line-height:1.62}
+.tt-cta{padding:var(--tt-gap-section) 0 var(--tt-gap-section)}.tt-cta-panel{background:var(--tt-yellow-bg);border-radius:0 70px 70px 70px;padding:52px 60px 54px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:54px;align-items:center}.tt-cta .tt-section-title{color:var(--tt-pink)}.tt-cta p{margin:15px 0 0;line-height:1.65}.tt-cta .tt-button{margin-top:0}
+.tt-footer{background:var(--tt-blue);padding:30px 0 24px;color:#fff;border-radius:70px 0 0 0}.tt-footer-grid{display:flex;justify-content:space-between;gap:32px;align-items:center}.tt-footer p{margin:0;font-size:14px;line-height:1.6}.tt-footer a{color:#fff;text-decoration:none}
+@media(max-width:850px){.tt-container{width:min(100% - 32px,1160px)}.tt-hero-grid,.tt-intro-panel,.tt-learn-heading,.tt-how-wrap,.tt-profile-panel,.tt-cta-panel{grid-template-columns:1fr;gap:28px}.tt-hero-copy-right{padding:0}.tt-learn-grid,.tt-format-grid,.tt-benefit-grid{grid-template-columns:1fr}.tt-title{font-size:42px}.tt-section-title{font-size:34px}.tt-cta .tt-button{margin-top:4px}.tt-footer-grid{align-items:flex-start;flex-direction:column}}
+@media(max-width:520px){.tt-container{width:min(100% - 28px,1160px)}.tt-hero{padding-top:54px}.tt-title{font-size:36px}.tt-section-title{font-size:30px}.tt-intro-panel,.tt-profile-panel,.tt-cta-panel{padding:36px 26px;border-radius:40px 40px 40px 0}.tt-cta-panel{border-radius:0 40px 40px 40px}.tt-learn-card,.tt-format-card{min-height:0;padding:26px 22px}.tt-footer{border-radius:40px 0 0 0}}
+</style>
+</head>
+<body>
+<div class="tt-page">
+<section class="tt-hero">
+<div class="tt-container"><div class="tt-hero-grid">
+<div>
+<p class="tt-kicker">Trainings</p>
+<h1 class="tt-title">A shared language<br>for working with<br>different people.</h1>
+</div>
+<div class="tt-hero-copy-right">
+<p>PCM training gives teams and leaders a practical framework for understanding differences in communication, motivation and stress.</p>
+<p>It helps people notice patterns earlier and choose a response that works better for the person in front of them.</p>
+<p>Available in Estonian, English and Russian.</p>
+</div>
+</div></div>
+</section>
+
+<section class="tt-intro">
+<div class="tt-container"><div class="tt-intro-panel">
+<div><p class="tt-kicker">What the training is for</p><h2 class="tt-section-title">Less guessing.<br>More understanding.</h2></div>
+<div>
+<p>People can hear the same words, need different things to stay engaged and react very differently under pressure.</p>
+<p>PCM gives the team a shared way to read those differences. Instead of relying only on intuition, participants learn what to notice and what to do with that information.</p>
+<p>The aim is practical: better conversations, fewer unnecessary misunderstandings and more flexibility when communication gets difficult.</p>
+</div>
+</div></div>
+</section>
+
+<section class="tt-learn">
+<div class="tt-container">
+<div class="tt-learn-heading"><div><p class="tt-kicker">What participants learn</p><h2 class="tt-section-title">Six perspectives.<br>More ways to connect.</h2></div><p>Participants learn the core PCM logic and immediately apply it to real communication situations.</p></div>
+<div class="tt-learn-grid">
+<article class="tt-learn-card"><h3>Recognise perception differences</h3><p>Understand why people naturally focus on different aspects of the same situation and why the same message can land differently.</p></article>
+<article class="tt-learn-card"><h3>Adapt communication</h3><p>Learn how to make a message easier for different people to hear without losing your own clarity or authenticity.</p></article>
+<article class="tt-learn-card"><h3>Understand motivation</h3><p>See which psychological needs help different people stay engaged, resourceful and involved.</p></article>
+<article class="tt-learn-card"><h3>Spot stress earlier</h3><p>Recognise predictable shifts in behaviour before tension escalates into recurring communication problems.</p></article>
+<article class="tt-learn-card"><h3>Respond more deliberately</h3><p>Build more than one way to handle difficult conversations, feedback, pressure and disagreement.</p></article>
+<article class="tt-learn-card"><h3>Build a shared language</h3><p>Give the team a practical vocabulary for discussing differences without turning them into personal judgements.</p></article>
+</div>
+</div>
+</section>
+
+<section class="tt-how">
+<div class="tt-container"><div class="tt-how-wrap">
+<div><p class="tt-kicker">How training works</p><h2 class="tt-section-title">Theory only matters<br>when you can use it.</h2></div>
+<div class="tt-how-list">
+<article class="tt-how-item"><div class="tt-num">01</div><div><h3>Understand the model</h3><p>Participants get a clear, practical introduction to the PCM framework and the six personality types.</p></div></article>
+<article class="tt-how-item"><div class="tt-num">02</div><div><h3>See it in real situations</h3><p>Examples, discussions and exercises connect the model to conversations people already recognise from work.</p></div></article>
+<article class="tt-how-item"><div class="tt-num">03</div><div><h3>Practise different responses</h3><p>The focus is not on memorising labels. It is on noticing more and having more options when communication matters.</p></div></article>
+</div>
+</div></div>
+</section>
+
+<section class="tt-formats">
+<div class="tt-container">
+<p class="tt-kicker">Training formats</p>
+<h2 class="tt-section-title">Choose the depth that fits.</h2>
+<div class="tt-format-grid">
+<article class="tt-format-card">
+<h3>PCM Core Training</h3>
+<p class="tt-sub">For teams and open groups</p>
+<p>The full foundation of PCM: perception, communication channels, psychological needs and stress patterns.</p>
+<p>A good starting point for teams that want a common framework they can continue using after the training.</p>
+<p class="tt-format-meta">16 hours · ET / EN / RU</p>
+<a class="tt-secondary-link" href="#">Explore Core Training →</a>
+</article>
+<article class="tt-format-card">
+<h3>PCM Leadership</h3>
+<p class="tt-sub">For leaders and managers</p>
+<p>The same core model viewed through a leadership lens: how to adapt communication, motivate different people and respond to stress more effectively.</p>
+<p>Participants receive an extended leadership profile alongside the training.</p>
+<p class="tt-format-meta">Leadership-focused programme</p>
+<a class="tt-secondary-link" href="#">Explore Leadership Training →</a>
+</article>
+<article class="tt-format-card">
+<h3>Advanced Training</h3>
+<p class="tt-sub">For deeper practice</p>
+<p>For people who already know the PCM foundations and want to deepen their ability to recognise patterns and use the model more precisely.</p>
+<p>The focus moves from understanding the framework to using it with greater fluency.</p>
+<p class="tt-format-meta">For previous PCM participants</p>
+<a class="tt-secondary-link" href="#">Explore Advanced Training →</a>
+</article>
+</div>
+</div>
+</section>
+
+<section class="tt-profile">
+<div class="tt-container"><div class="tt-profile-panel">
+<div><p class="tt-kicker">Individual profile</p><h2 class="tt-section-title">A personal map<br>inside a shared model.</h2></div>
+<div>
+<p>PCM training can include the official PCM personality profile. The standard profile is 26 pages and gives each participant a personal view of their personality structure, communication preferences, psychological needs and stress patterns.</p>
+<p>For leadership training, participants receive an extended leadership profile with additional material relevant to leading others.</p>
+<p>The profile is not used to put people into boxes. It gives participants a more precise language for understanding their own patterns and recognising differences in others.</p>
+</div>
+</div></div>
+</section>
+
+<section class="tt-benefits">
+<div class="tt-container">
+<p class="tt-kicker">How teams benefit</p>
+<h2 class="tt-section-title">What can change after training.</h2>
+<div class="tt-benefit-grid">
+<article class="tt-benefit"><h3>Fewer conflicts</h3><p>Differences are recognised earlier, before they harden into personal tension.</p></article>
+<article class="tt-benefit"><h3>Greater team comfort</h3><p>People have more ways to communicate without constantly pushing against each other.</p></article>
+<article class="tt-benefit"><h3>Stronger mutual understanding</h3><p>Team members can make more sense of behaviour that previously felt confusing or frustrating.</p></article>
+<article class="tt-benefit"><h3>More balanced participation</h3><p>Different communication styles have more room to contribute.</p></article>
+<article class="tt-benefit"><h3>Stronger team stability</h3><p>A shared framework makes difficult periods easier to navigate together.</p></article>
+<article class="tt-benefit"><h3>Increased satisfaction</h3><p>People are more likely to feel understood, respected and able to work in ways that suit them.</p></article>
+</div>
+</div>
+</section>
+
+<section class="tt-cta">
+<div class="tt-container"><div class="tt-cta-panel">
+<div><h2 class="tt-section-title">Not sure which training fits?</h2><p>Tell me about your team, your current situation and what you would like to improve. We can choose the right starting point from there.</p></div>
+<div><a class="tt-button" href="#">Book a Free 15-Minute Introduction Call</a></div>
+</div></div>
+</section>
+
+<footer class="tt-footer"><div class="tt-container"><div class="tt-footer-grid">
+<p>Maia Mitšulis · Certified PCM trainer in Estonia</p>
+<p><a href="index.html">Home</a> · <a href="services.html">Services</a> · <a href="mailto:contact@tujutaju.ee">contact@tujutaju.ee</a></p>
+</div></div></footer>
+</div>
+</body>
+</html>
