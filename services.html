@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — Tujutaju</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#fff}
+.tt-page{--tt-blue:#626E98;--tt-blue-soft:#EBECF2;--tt-yellow:#FFE193;--tt-pink:#EEBCBC;--tt-pink-btn:#FFD3DE;--tt-yellow-bg:#FFF4D662;--tt-pink-bg:#FFD6E038;--tt-white:#FFFFFF;font-family:Poppins,sans-serif;color:var(--tt-blue);font-size:15px}
+.tt-page *{box-sizing:border-box}.tt-container{width:min(1160px,calc(100% - 48px));margin:0 auto}.tt-kicker{margin:0 0 16px;font-weight:700;line-height:1.4}.tt-title{margin:0;font-size:48px;line-height:1.26;font-weight:700;color:var(--tt-pink)}.tt-section-title{margin:0;font-size:40px;line-height:1.16;font-weight:700}.tt-copy{font-size:15px;line-height:1.65}.tt-button{display:inline-flex;align-items:center;justify-content:center;margin-top:26px;padding:13px 24px;border-radius:0 20px 20px 20px;background:var(--tt-yellow);color:#fff;text-decoration:none;font-size:13px;line-height:1;font-weight:700;letter-spacing:.06em;text-transform:uppercase;transition:.2s ease}.tt-button:hover{background:var(--tt-pink-btn);color:var(--tt-blue);transform:translateY(-2px)}
+.tt-hero{padding:72px 0 44px}.tt-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:88px;align-items:end}.tt-hero-intro{margin:0 0 5px;font-size:15px;line-height:1.7}.tt-hero-note{margin:18px 0 0;font-weight:700;line-height:1.6}
+.tt-services{padding:18px 0 34px}.tt-services-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.tt-service{min-height:330px;padding:38px 38px 34px;display:flex;flex-direction:column}.tt-service:nth-child(1){background:var(--tt-blue-soft);border-radius:70px 70px 70px 0}.tt-service:nth-child(2){background:var(--tt-pink-bg);border-radius:70px 70px 0 70px}.tt-service:nth-child(3){background:var(--tt-yellow-bg);border-radius:70px 0 70px 70px}.tt-service:nth-child(4){background:var(--tt-blue-soft);border-radius:0 70px 70px 70px}.tt-service-label{margin:0 0 12px;font-weight:700}.tt-service h2{margin:0 0 18px;font-size:32px;line-height:1.2}.tt-service p{margin:0 0 14px;line-height:1.65}.tt-service .tt-format{margin-top:4px;font-weight:700}.tt-service-link{margin-top:auto;padding-top:22px;color:var(--tt-blue);font-weight:700;text-decoration:none}.tt-service-link:hover{text-decoration:underline}
+.tt-common{padding:28px 0 36px}.tt-common-panel{background:var(--tt-pink-bg);border-radius:70px 70px 70px 0;padding:52px 58px;display:grid;grid-template-columns:.85fr 1.15fr;gap:76px;align-items:start}.tt-common .tt-section-title{color:var(--tt-pink)}.tt-common p{margin:0 0 13px;line-height:1.65}.tt-common p:last-child{margin-bottom:0}
+.tt-cta{padding:8px 0 40px}.tt-cta-panel{background:var(--tt-yellow-bg);border-radius:0 70px 70px 70px;padding:52px 60px 54px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:54px;align-items:center}.tt-cta .tt-section-title{color:var(--tt-pink)}.tt-cta p{margin:15px 0 0;line-height:1.65}.tt-cta .tt-button{margin-top:0}
+.tt-footer{background:var(--tt-blue);padding:30px 0 24px;color:#fff;border-radius:70px 0 0 0}.tt-footer-grid{display:flex;justify-content:space-between;gap:32px;align-items:center}.tt-footer p{margin:0;font-size:14px;line-height:1.6}.tt-footer a{color:#fff;text-decoration:none}.tt-footer a:hover{text-decoration:underline}
+@media(max-width:850px){.tt-container{width:min(100% - 32px,1160px)}.tt-hero-grid,.tt-common-panel,.tt-cta-panel{grid-template-columns:1fr;gap:28px}.tt-services-grid{grid-template-columns:1fr}.tt-title{font-size:42px}.tt-section-title{font-size:34px}.tt-cta .tt-button{margin-top:4px}.tt-footer-grid{align-items:flex-start;flex-direction:column}}
+@media(max-width:520px){.tt-container{width:min(100% - 28px,1160px)}.tt-hero{padding-top:54px}.tt-title{font-size:36px}.tt-section-title{font-size:30px}.tt-service{min-height:0;padding:28px 24px}.tt-service h2{font-size:26px}.tt-common-panel,.tt-cta-panel{padding:36px 26px;border-radius:40px 40px 40px 0}.tt-cta-panel{border-radius:0 40px 40px 40px}.tt-footer{border-radius:40px 0 0 0}}
+</style>
+</head>
+<body>
+<div class="tt-page">
+<section class="tt-hero">
+<div class="tt-container"><div class="tt-hero-grid">
+<div>
+<p class="tt-kicker">Services</p>
+<h1 class="tt-title">Different situations need<br>different starting points.</h1>
+</div>
+<div>
+<p class="tt-hero-intro">You do not need to know which format you need before we talk.</p>
+<p class="tt-hero-intro">Start with the situation that feels closest to yours. From there, we can choose the level of depth, time and support that makes sense.</p>
+<p class="tt-hero-note">All formats are practical, communication-focused and built around real situations.</p>
+</div>
+</div></div>
+</section>
+
+<section class="tt-services">
+<div class="tt-container"><div class="tt-services-grid">
+<article class="tt-service">
+<p class="tt-service-label">For teams &amp; leaders</p>
+<h2>Trainings</h2>
+<p>Build a shared language for communication, understand what different people need and recognise stress patterns earlier.</p>
+<p>Training can focus on the whole team, on leadership communication or on deeper PCM skills.</p>
+<p class="tt-format">PCM Core · Leadership · Advanced · Team development</p>
+<a class="tt-service-link" href="#">Explore trainings →</a>
+</article>
+
+<article class="tt-service">
+<p class="tt-service-label">For individuals</p>
+<h2>Consultations</h2>
+<p>Bring one communication situation, recurring pattern or relationship dynamic that you would like to understand more clearly.</p>
+<p>You can start without profiling, or go deeper with an official PCM personality profile and debrief.</p>
+<p class="tt-format">Individual consultation · PCM Profile &amp; debrief</p>
+<a class="tt-service-link" href="#">Explore consultations →</a>
+</article>
+
+<article class="tt-service">
+<p class="tt-service-label">Short practical formats</p>
+<h2>Workshops</h2>
+<p>A focused way to introduce a team or group to differences in communication without committing to a full training programme.</p>
+<p>Useful for business clubs, conferences, team days and internal learning sessions.</p>
+<p class="tt-format">60–90 min · Practical · Adaptable to the audience</p>
+<a class="tt-service-link" href="#">Explore workshops →</a>
+</article>
+
+<article class="tt-service">
+<p class="tt-service-label">For education</p>
+<h2>Schools</h2>
+<p>Support teachers and school leaders in understanding different ways students and colleagues communicate, engage and react under stress.</p>
+<p>The focus stays practical: contact, motivation, feedback and communication under pressure.</p>
+<p class="tt-format">Teacher workshops · Leadership sessions · Team training</p>
+<a class="tt-service-link" href="#">Explore options for schools →</a>
+</article>
+</div></div>
+</section>
+
+<section class="tt-common">
+<div class="tt-container"><div class="tt-common-panel">
+<div><p class="tt-kicker">What connects all of these</p><h2 class="tt-section-title">One model.<br>Different depth.</h2></div>
+<div class="tt-copy">
+<p>I work with Process Communication Model® (PCM), a practical framework for understanding differences in perception, motivation, communication and stress.</p>
+<p>You do not need to learn the whole model to benefit from it. Sometimes one conversation is enough to see a situation differently. Sometimes a team needs a shared language and more practice.</p>
+<p>The format changes. The goal stays the same: more clarity, less unnecessary tension and more ways to reach different people.</p>
+</div>
+</div></div>
+</section>
+
+<section class="tt-cta">
+<div class="tt-container"><div class="tt-cta-panel">
+<div><h2 class="tt-section-title">Not sure which option fits?</h2><p>Tell me briefly what is happening. We can start there and decide what kind of support makes sense.</p></div>
+<div><a class="tt-button" href="#">Book a Free 15-Minute Introduction Call</a></div>
+</div></div>
+</section>
+
+<footer class="tt-footer"><div class="tt-container"><div class="tt-footer-grid">
+<p>Maia Mitšulis · Certified PCM trainer in Estonia</p>
+<p><a href="index.html">Home</a> · <a href="mailto:contact@tujutaju.ee">contact@tujutaju.ee</a></p>
+</div></div></footer>
+</div>
+</body>
+</html>
