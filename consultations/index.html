@@ -9,31 +9,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <style>
 body{margin:0;background:#fff}
-.tt-page{--tt-blue:#626E98;--tt-blue-soft:#EBECF2;--tt-blue-mid:#C5CADB;--tt-yellow:#FFE193;--tt-pink:#EEBCBC;--tt-pink-btn:#FFD3DE;--tt-yellow-bg:#FFF6E8;--tt-pink-bg:#FFF0F4;--tt-white:#fff;--tt-gap:44px;font-family:Poppins,sans-serif;color:var(--tt-blue);font-size:15px}
+.tt-page{--tt-blue:#626E98;--tt-blue-soft:#EBECF2;--tt-blue-mid:#C5CADB;--tt-yellow:#FFE193;--tt-pink:#EEBCBC;--tt-pink-btn:#FFD3DE;--tt-yellow-bg:#FFF4D662;--tt-pink-bg:#FFF0F4;--tt-white:#fff;--tt-gap:44px;font-family:Poppins,sans-serif;color:var(--tt-blue);font-size:15px}
 .tt-page *{box-sizing:border-box}.tt-container{width:min(1160px,calc(100% - 48px));margin:0 auto}.tt-kicker{margin:0 0 12px;font-weight:700;line-height:1.4}.tt-title{margin:0;font-size:48px;line-height:1.24;font-weight:700;color:var(--tt-pink)}.tt-section-title{margin:0;font-size:40px;line-height:1.16;font-weight:700}.tt-copy{line-height:1.65}.tt-button{display:inline-flex;align-items:center;justify-content:center;padding:13px 24px;border-radius:0 20px 20px 20px;background:var(--tt-yellow);color:#fff;text-decoration:none;font-size:13px;line-height:1;font-weight:700;letter-spacing:.06em;text-transform:uppercase;transition:.2s ease}.tt-button:hover{background:var(--tt-pink-btn);color:var(--tt-blue);transform:translateY(-2px)}.tt-button-secondary{background:var(--tt-pink-btn);color:var(--tt-blue)}.tt-button-secondary:hover{background:var(--tt-yellow);color:#fff}
+.tt-situations-head .tt-kicker,.tt-paths>.tt-container>.tt-kicker,.tt-contexts>.tt-container>.tt-kicker,.tt-profile-head .tt-kicker,.tt-process .tt-kicker,.tt-details>.tt-container>.tt-kicker,.tt-proof .tt-kicker,.tt-cta .tt-kicker{margin-bottom:0;line-height:1.65}
 
 .tt-hero{padding:64px 0 0}.tt-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(350px,1fr);gap:56px;align-items:center}.tt-hero-copy{padding:18px 0 12px}.tt-hero-copy>.tt-kicker{margin:0 0 16px;font-size:18px;line-height:1.3;letter-spacing:.12em;text-transform:uppercase}.tt-title-line{display:block}.tt-hero-text{max-width:640px;margin:22px 0 0;line-height:1.65}.tt-hero-meta{margin-top:20px;font-weight:700;line-height:1.6}.tt-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.tt-hero-photo{aspect-ratio:4/3;border-radius:64px 64px 0 64px;overflow:hidden;background:var(--tt-blue-soft);position:relative;display:flex;align-items:center;justify-content:center}.tt-hero-placeholder{width:44%;aspect-ratio:1;border-radius:50px 50px 0 50px;background:var(--tt-blue-mid);position:relative}.tt-hero-placeholder:after{content:"";position:absolute;width:68%;height:10px;left:60%;top:43%;border-radius:10px;background:var(--tt-pink)}
 
-.tt-situations{padding:66px 0 0}.tt-situations-panel{background:var(--tt-pink-bg);border-radius:70px 70px 70px 0;padding:48px 50px 52px}.tt-situations-head{max-width:850px;margin:0 auto 24px;text-align:center}.tt-situations .tt-section-title{color:var(--tt-blue)}.tt-situations-intro{margin:14px 0 0;line-height:1.65}.tt-situation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tt-situation{min-height:190px;padding:28px 26px;display:flex;align-items:center;background:#fff}.tt-situation:nth-child(1){border-radius:50px 50px 50px 0}.tt-situation:nth-child(2){border-radius:50px 50px 0 50px}.tt-situation:nth-child(3){border-radius:50px 0 50px 50px}.tt-situation:nth-child(4){border-radius:0 50px 50px 50px}.tt-situation:nth-child(5){border-radius:50px 0 50px 50px}.tt-situation:nth-child(6){border-radius:50px 50px 0 50px}.tt-situation p{margin:0;font-size:17px;line-height:1.55}
+.tt-situations{padding:66px 0 0}.tt-situations-panel{background:var(--tt-pink-bg);border-radius:70px 70px 70px 0;padding:48px 50px 42px}.tt-situations-head{max-width:850px;margin:0 auto 24px;text-align:center}.tt-situations .tt-section-title{color:var(--tt-blue)}.tt-situations-intro{margin:14px 0 0;line-height:1.65}.tt-situation-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 36px)/3);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none}.tt-situation-track::-webkit-scrollbar{display:none}.tt-situation{scroll-snap-align:start;min-height:190px;padding:28px 26px;display:flex;align-items:center;background:#fff}.tt-situation:nth-child(1){border-radius:50px 50px 50px 0}.tt-situation:nth-child(2){border-radius:50px 50px 0 50px}.tt-situation:nth-child(3){border-radius:50px 0 50px 50px}.tt-situation:nth-child(4){border-radius:0 50px 50px 50px}.tt-situation:nth-child(5){border-radius:50px 0 50px 50px}.tt-situation:nth-child(6){border-radius:50px 50px 0 50px}.tt-situation p{margin:0;font-size:17px;line-height:1.55}.tt-carousel-dots{display:flex;justify-content:center;align-items:center;gap:2px;margin-top:16px}.tt-carousel-dot{width:18px;height:18px;padding:0;border:0;background:transparent;cursor:pointer;display:grid;place-items:center}.tt-carousel-dot:before{content:"";width:7px;height:7px;border-radius:50%;background:#DDE0E9;transition:background .2s ease,transform .2s ease}.tt-carousel-dot[aria-current="true"]:before{background:var(--tt-blue);transform:scale(1.12)}
 
-.tt-paths{padding:var(--tt-gap) 0 0}.tt-paths .tt-section-title{color:var(--tt-pink);margin-bottom:16px}.tt-path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.tt-path{min-height:480px;padding:38px 38px 34px;display:flex;flex-direction:column}.tt-path:first-child{background:var(--tt-blue-soft);border-radius:70px 70px 70px 0}.tt-path:last-child{background:var(--tt-yellow-bg);border-radius:70px 70px 0 70px}.tt-path-label{margin:0 0 10px;font-weight:700}.tt-path h3{margin:0 0 12px;font-size:30px;line-height:1.23}.tt-price{margin:0 0 20px;font-size:24px;line-height:1.3;font-weight:700;color:var(--tt-pink)}.tt-path p{margin:0 0 14px;line-height:1.65}.tt-path ul{margin:4px 0 22px;padding-left:20px;line-height:1.65}.tt-path .tt-button{align-self:flex-start;margin-top:auto}
+.tt-paths{padding:var(--tt-gap) 0 0}.tt-paths .tt-section-title{color:var(--tt-pink);margin-bottom:16px}.tt-path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.tt-path{min-height:500px;padding:38px 38px 34px;display:flex;flex-direction:column}.tt-path:first-child{background:var(--tt-blue-soft);border-radius:70px 70px 70px 0}.tt-path:last-child{background:var(--tt-yellow-bg);border-radius:70px 70px 0 70px}.tt-path-label{margin:0 0 10px;font-weight:700}.tt-path h3{margin:0 0 12px;font-size:30px;line-height:1.23}.tt-price{margin:0 0 20px;font-size:24px;line-height:1.3;font-weight:700;color:var(--tt-pink)}.tt-path-prompt{font-weight:700}.tt-path p{margin:0 0 14px;line-height:1.65}.tt-path ul{margin:4px 0 22px;padding-left:20px;line-height:1.65}.tt-path .tt-button{align-self:flex-start;margin-top:auto;color:var(--tt-blue)}.tt-path:first-child .tt-button{background:var(--tt-blue-mid)}.tt-path:last-child .tt-button{background:var(--tt-yellow)}.tt-path .tt-button:hover{filter:brightness(.97);transform:translateY(-2px)}
 
 .tt-contexts{padding:var(--tt-gap) 0 0}.tt-contexts .tt-section-title{color:var(--tt-blue);margin-bottom:16px}.tt-context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tt-context{padding:32px 28px 30px;min-height:350px}.tt-context:nth-child(1){background:var(--tt-pink-bg);border-radius:60px 60px 60px 0}.tt-context:nth-child(2){background:var(--tt-yellow-bg);border-radius:60px 60px 0 60px}.tt-context:nth-child(3){background:var(--tt-blue-soft);border-radius:60px 0 60px 60px}.tt-context h3{margin:0 0 12px;font-size:27px;line-height:1.25}.tt-context p{margin:0 0 13px;line-height:1.62}.tt-context .tt-context-note{font-weight:700;margin-top:18px}
 
 .tt-profile{padding:var(--tt-gap) 0 0}.tt-profile-panel{background:var(--tt-yellow-bg);border-radius:0 70px 70px 70px;padding:48px 52px}.tt-profile-head{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}.tt-profile .tt-section-title{color:var(--tt-blue)}.tt-profile-intro p{margin:0 0 14px;line-height:1.65}.tt-outcome-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:34px}.tt-outcome{min-height:220px;padding:26px 22px;background:#fff}.tt-outcome:nth-child(1){border-radius:42px 42px 42px 0}.tt-outcome:nth-child(2){border-radius:42px 42px 0 42px}.tt-outcome:nth-child(3){border-radius:42px 0 42px 42px}.tt-outcome:nth-child(4){border-radius:0 42px 42px 42px}.tt-outcome h3{margin:0 0 10px;font-size:20px;line-height:1.3}.tt-outcome p{margin:0;line-height:1.6}
 
-.tt-process{padding:var(--tt-gap) 0 0}.tt-process-wrap{display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:start}.tt-process .tt-section-title{color:var(--tt-pink)}.tt-process-list{display:grid;gap:18px}.tt-process-item{display:grid;grid-template-columns:52px 1fr;gap:20px;align-items:start;padding:24px;background:var(--tt-blue-soft);border-radius:34px 34px 34px 0}.tt-process-item:nth-child(2){background:var(--tt-pink-bg);border-radius:34px 34px 0 34px}.tt-process-item:nth-child(3){background:var(--tt-yellow-bg);border-radius:34px 0 34px 34px}.tt-num{width:52px;height:52px;border-radius:50px 50px 50px 0;background:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}.tt-process-item h3{margin:0 0 7px;font-size:22px;line-height:1.27}.tt-process-item p{margin:0;line-height:1.63}
+.tt-process{padding:var(--tt-gap) 0 0}.tt-process-wrap{display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:start}.tt-process .tt-section-title{color:var(--tt-pink)}.tt-process-visual{margin:28px 0 0;display:flex;flex-direction:column;align-items:flex-start}.tt-process-image{width:auto;max-width:100%;height:auto;max-height:260px;display:block;border:1px solid #E3E5EC;box-shadow:0 12px 28px rgba(98,110,152,.11)}.tt-process-caption{margin-top:10px;font-size:13px;font-weight:700;letter-spacing:.04em}.tt-process-list{display:grid;gap:18px}.tt-process-item{display:grid;grid-template-columns:52px 1fr;gap:20px;align-items:start;padding:24px;background:var(--tt-blue-soft);border-radius:34px 34px 34px 0}.tt-process-item:nth-child(2){background:var(--tt-pink-bg);border-radius:34px 34px 0 34px}.tt-process-item:nth-child(3){background:var(--tt-yellow-bg);border-radius:34px 0 34px 34px}.tt-num{width:52px;height:52px;border-radius:50px 50px 50px 0;background:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}.tt-process-item h3{margin:0 0 7px;font-size:22px;line-height:1.27}.tt-process-item p{margin:0;line-height:1.63}
 
-.tt-details{padding:var(--tt-gap) 0 0}.tt-details .tt-section-title{color:var(--tt-blue);margin-bottom:16px}.tt-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tt-detail{padding:25px 24px;min-height:155px;background:var(--tt-blue-soft);border-radius:36px}.tt-detail:nth-child(2),.tt-detail:nth-child(5){background:var(--tt-pink-bg)}.tt-detail:nth-child(3),.tt-detail:nth-child(6){background:var(--tt-yellow-bg)}.tt-detail h3{margin:0 0 8px;font-size:20px;line-height:1.3}.tt-detail p{margin:0;line-height:1.6}
+.tt-details{padding:var(--tt-gap) 0 0}.tt-details .tt-section-title{color:var(--tt-blue);margin-bottom:18px}.tt-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:54px;row-gap:20px}.tt-detail{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;padding:4px 0}.tt-detail-icon{width:44px;height:44px;border-radius:18px 18px 18px 0;background:var(--tt-blue-soft);display:flex;align-items:center;justify-content:center;color:var(--tt-blue);font-weight:700;font-size:17px}.tt-detail h3{margin:0 0 4px;font-size:19px;line-height:1.3}.tt-detail p{margin:0;line-height:1.55}
 
 .tt-proof{padding:var(--tt-gap) 0 0}.tt-proof-panel{background:var(--tt-pink-bg);border-radius:70px 70px 70px 0;padding:46px 54px}.tt-proof .tt-section-title{color:var(--tt-pink);margin-bottom:24px}.tt-quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}.tt-quote{margin:0}.tt-quote p{margin:0 0 14px;line-height:1.68}.tt-quote strong{font-size:14px}
 
 .tt-cta{padding:var(--tt-gap) 0}.tt-cta-panel{background:var(--tt-blue);border-radius:70px 70px 70px 0;padding:52px 60px 54px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:48px;align-items:center;color:#fff}.tt-cta .tt-section-title{color:#fff}.tt-cta p{margin:15px 0 0;line-height:1.65}.tt-cta-actions{display:flex;flex-direction:column;align-items:stretch;gap:12px}.tt-cta-actions .tt-button{white-space:nowrap}
 
 .tt-footer{background:var(--tt-blue);padding:30px 0 24px;color:#fff;border-radius:70px 0 0 0}.tt-footer-grid{display:flex;justify-content:space-between;gap:32px;align-items:center}.tt-footer p{margin:0;font-size:14px;line-height:1.6}.tt-footer a{color:#fff;text-decoration:none}.tt-footer a:hover{text-decoration:underline}
-@media(max-width:960px){.tt-situation-grid,.tt-context-grid,.tt-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tt-outcome-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:960px){.tt-context-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tt-outcome-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:850px){.tt-container{width:min(100% - 32px,1160px)}.tt-hero-grid,.tt-path-grid,.tt-profile-head,.tt-process-wrap,.tt-cta-panel{grid-template-columns:1fr;gap:30px}.tt-hero-photo{aspect-ratio:4/3}.tt-title{font-size:42px}.tt-section-title{font-size:34px}.tt-situations-panel,.tt-profile-panel,.tt-proof-panel,.tt-cta-panel{padding:40px 32px}.tt-cta-actions{align-items:flex-start}.tt-footer-grid{align-items:flex-start;flex-direction:column}}
-@media(max-width:600px){.tt-container{width:min(100% - 28px,1160px)}.tt-hero{padding-top:50px}.tt-title{font-size:34px}.tt-section-title{font-size:30px}.tt-situation-grid,.tt-context-grid,.tt-detail-grid,.tt-outcome-grid,.tt-quotes{grid-template-columns:1fr}.tt-situations-panel,.tt-profile-panel,.tt-proof-panel,.tt-cta-panel{padding:34px 24px;border-radius:40px 40px 40px 0}.tt-profile-panel{border-radius:0 40px 40px 40px}.tt-path{min-height:0;padding:30px 25px}.tt-context{min-height:0}.tt-situation{min-height:0}.tt-hero-actions{align-items:flex-start;flex-direction:column}.tt-footer{border-radius:40px 0 0 0}}
+@media(max-width:600px){.tt-container{width:min(100% - 28px,1160px)}.tt-hero{padding-top:50px}.tt-title{font-size:34px}.tt-section-title{font-size:30px}.tt-context-grid,.tt-detail-grid,.tt-outcome-grid,.tt-quotes{grid-template-columns:1fr}.tt-situation-track{grid-auto-columns:84%}.tt-situations-panel,.tt-profile-panel,.tt-proof-panel,.tt-cta-panel{padding:34px 24px;border-radius:40px 40px 40px 0}.tt-profile-panel{border-radius:0 40px 40px 40px}.tt-path{min-height:0;padding:30px 25px}.tt-context{min-height:0}.tt-situation{min-height:180px}.tt-hero-actions{align-items:flex-start;flex-direction:column}.tt-footer{border-radius:40px 0 0 0}}
 </style>
 </head>
 <body>
@@ -46,7 +47,7 @@ body{margin:0;background:#fff}
 <h1 class="tt-title"><span class="tt-title-line">Understand what is happening</span><span class="tt-title-line">in communication —</span><span class="tt-title-line">and what you can do next.</span></h1>
 <p class="tt-hero-text">Bring one situation that keeps creating misunderstanding, tension or distance — or choose a deeper exploration of your own communication patterns with an official PCM personality profile.</p>
 <div class="tt-hero-meta">Individual, couple or leadership context · in Estonian, English or Russian · online or in Tallinn</div>
-<div class="tt-hero-actions"><a class="tt-button" href="mailto:contact@tujutaju.ee?subject=Consultation%20inquiry">Book a consultation</a><a class="tt-button tt-button-secondary" href="#ways-to-start">Compare the two options</a></div>
+<div class="tt-hero-actions"><a class="tt-button" href="mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call">Book a free 20-minute call</a></div>
 </div>
 <div class="tt-hero-photo" role="img" aria-label="Image placeholder for the Consultations page"><span class="tt-hero-placeholder" aria-hidden="true"></span></div>
 </div></div>
@@ -54,24 +55,26 @@ body{margin:0;background:#fff}
 
 <section class="tt-situations">
 <div class="tt-container"><div class="tt-situations-panel">
-<div class="tt-situations-head"><p class="tt-kicker">Situations clients bring</p><h2 class="tt-section-title">You do not need to know anything about PCM.</h2><p class="tt-situations-intro">You can start with a real conversation, relationship or pattern you would like to understand more clearly.</p></div>
-<div class="tt-situation-grid">
-<article class="tt-situation"><p>“I explain things carefully, but somehow my message still lands differently from what I intended.”</p></article>
-<article class="tt-situation"><p>“I care about this relationship, yet I often leave conversations feeling unseen or misunderstood.”</p></article>
-<article class="tt-situation"><p>“Why does everything have to be so serious? I want communication to feel lighter and more natural.”</p></article>
-<article class="tt-situation"><p>“When our values or principles differ, the conversation quickly becomes tense.”</p></article>
-<article class="tt-situation"><p>“I have an important conversation or negotiation ahead and want to be prepared for different reactions.”</p></article>
-<article class="tt-situation"><p>“Under pressure I need space and go quiet, while the other person wants an answer immediately.”</p></article>
+<div class="tt-situations-head"><p class="tt-kicker">You do not need to know anything about PCM</p><h2 class="tt-section-title">Situations clients bring</h2><p class="tt-situations-intro">You can start with a real conversation, relationship or pattern you would like to understand more clearly.</p></div>
+<div class="tt-situation-track" id="ttSituationTrack">
+<article class="tt-situation"><p>“I explain things clearly and logically, yet people still misunderstand me. What am I missing?”</p></article>
+<article class="tt-situation"><p>“When a relationship matters, it hurts to feel misunderstood.”</p></article>
+<article class="tt-situation"><p>“Why does everything have to be so serious? Life is fun!”</p></article>
+<article class="tt-situation"><p>“Whenever our values or principles differ, the conversation quickly becomes tense.”</p></article>
+<article class="tt-situation"><p>“I have an important negotiation ahead and want to be ready for whatever happens.”</p></article>
+<article class="tt-situation"><p>“Under pressure, I need space and go quiet, while the other person wants an answer immediately.”</p></article>
 </div>
+<div class="tt-carousel-dots" id="ttSituationDots" aria-label="Situation carousel pages"></div>
 </div></div>
 </section>
 
 <section class="tt-paths" id="ways-to-start">
 <div class="tt-container">
-<p class="tt-kicker">Two ways to start</p><h2 class="tt-section-title">Choose the depth that fits your situation.</h2>
+<p class="tt-kicker">Choose the depth that fits your situation</p><h2 class="tt-section-title">Two ways to start</h2>
 <div class="tt-path-grid">
 <article class="tt-path">
 <p class="tt-path-label">Consultation without profiling</p><h3>One situation, more clarity</h3><p class="tt-price">50 € · 50–60 minutes</p>
+<p class="tt-path-prompt">“Certain interactions drain me. Communication with some people is exhausting, and I don’t understand why.”</p>
 <p>We focus on one communication situation, recurring tension or feeling that “we keep missing each other”. You do not need to learn the whole model or complete a questionnaire.</p>
 <ul><li>Clarify what may be happening between the people involved</li><li>Notice different ways of perceiving and responding</li><li>Find practical options for the next conversation</li></ul>
 <p><strong>A good starting point when you want help with something specific.</strong></p>
@@ -79,6 +82,7 @@ body{margin:0;background:#fff}
 </article>
 <article class="tt-path">
 <p class="tt-path-label">PCM profile and debrief</p><h3>A fuller personal map</h3><p class="tt-price">320 € · 2.5-hour debrief</p>
+<p class="tt-path-prompt">“I want to know myself better. I’m curious how I can develop my communication abilities.”</p>
 <p>You complete the official PCM questionnaire and receive your personal 26-page profile. During the debrief, we connect the model to your communication, motivation, psychological needs and stress patterns.</p>
 <ul><li>Official PCM questionnaire</li><li>Personal 26-page PCM profile</li><li>Practical recommendations for real situations</li><li>One-hour follow-up meeting after a month</li></ul>
 <p><strong>A good choice when you want deeper self-understanding and a framework you can keep using.</strong></p>
@@ -93,7 +97,7 @@ body{margin:0;background:#fff}
 <p class="tt-kicker">Different contexts</p><h2 class="tt-section-title">The format follows the question you bring.</h2>
 <div class="tt-context-grid">
 <article class="tt-context"><h3>Individual</h3><p>Explore a recurring communication pattern, prepare for a difficult conversation or understand why certain interactions affect you so strongly.</p><p>You can work with one situation without profiling or choose the full PCM profile for a broader personal view.</p><p class="tt-context-note">From 50 € · profile and debrief 320 €</p></article>
-<article class="tt-context"><h3>Couples &amp; partners</h3><p>Look at the dynamic between two people: what each person hears, expects and does under pressure, and why good intentions do not always reach the other person.</p><p>The session can focus on one shared situation or include personal PCM profiles for deeper work.</p><p class="tt-context-note">Price depends on the chosen format and number of profiles.</p></article>
+<article class="tt-context"><h3>Couples &amp; partners</h3><p>Look at the dynamic between two people: what each person hears, expects and does under pressure, and why good intentions do not always reach the other person.</p><p>The programme includes two official PCM profiles, two individual 2.5-hour debriefs, one 2-hour joint debrief and follow-up after one month.</p><p class="tt-context-note">840 € · complete programme for two</p></article>
 <article class="tt-context"><h3>Leaders</h3><p>Prepare for feedback, delegation, negotiation or a conversation with someone who responds very differently from you.</p><p>Start with one leadership situation or use your PCM profile to understand your natural leadership communication and stress patterns.</p><p class="tt-context-note">From 50 € · profile and debrief 320 €</p></article>
 </div>
 </div>
@@ -113,7 +117,7 @@ body{margin:0;background:#fff}
 
 <section class="tt-process">
 <div class="tt-container"><div class="tt-process-wrap">
-<div><p class="tt-kicker">How profiling works</p><h2 class="tt-section-title">Three steps,<br>with time to use<br>what you learn.</h2></div>
+<div><p class="tt-kicker">How profiling works</p><h2 class="tt-section-title">Three steps,<br>with time to use<br>what you learn.</h2><figure class="tt-process-visual"><img class="tt-process-image" src="https://tujutaju.ee/wp-content/uploads/2026/04/IMG_2766-scaled.jpeg" alt="Example page from a 26-page personal PCM profile"><figcaption class="tt-process-caption">26-page personal PCM profile</figcaption></figure></div>
 <div class="tt-process-list">
 <article class="tt-process-item"><div class="tt-num">01</div><div><h3>Complete the questionnaire</h3><p>You receive a link to the official PCM questionnaire. Set aside approximately 45–60 quiet minutes to complete it online.</p></div></article>
 <article class="tt-process-item"><div class="tt-num">02</div><div><h3>Meet for the 2.5-hour debrief</h3><p>You receive your 26-page profile and we explore it together, online or in person in Tallinn, with practical links to your own experience.</p></div></article>
@@ -126,12 +130,12 @@ body{margin:0;background:#fff}
 <div class="tt-container">
 <p class="tt-kicker">Practical details</p><h2 class="tt-section-title">What to know before you book</h2>
 <div class="tt-detail-grid">
-<article class="tt-detail"><h3>Languages</h3><p>Consultations are available in Estonian, English and Russian.</p></article>
-<article class="tt-detail"><h3>Online or in person</h3><p>Meet online or in person in Tallinn.</p></article>
-<article class="tt-detail"><h3>Payment</h3><p>Prepayment by invoice to the company account, or cash when meeting in person.</p></article>
-<article class="tt-detail"><h3>Changes</h3><p>Please cancel or reschedule at least 24 hours before the meeting.</p></article>
-<article class="tt-detail"><h3>No profiling required</h3><p>You can bring one situation and work with it without completing a questionnaire.</p></article>
-<article class="tt-detail"><h3>Not therapy</h3><p>The focus is communication and practical understanding. PCM is not diagnosis or psychotherapy.</p></article>
+<article class="tt-detail"><span class="tt-detail-icon" aria-hidden="true">A</span><div><h3>Languages</h3><p>Consultations are available in Estonian, English and Russian.</p></div></article>
+<article class="tt-detail"><span class="tt-detail-icon" aria-hidden="true">↗</span><div><h3>Online or in person</h3><p>Meet online or in person in Tallinn.</p></div></article>
+<article class="tt-detail"><span class="tt-detail-icon" aria-hidden="true">€</span><div><h3>Payment</h3><p>Prepayment by invoice to the company account, or cash when meeting in person.</p></div></article>
+<article class="tt-detail"><span class="tt-detail-icon" aria-hidden="true">↻</span><div><h3>Changes</h3><p>Please cancel or reschedule at least 24 hours before the meeting.</p></div></article>
+<article class="tt-detail"><span class="tt-detail-icon" aria-hidden="true">1</span><div><h3>No profiling required</h3><p>You can bring one situation and work with it without completing a questionnaire.</p></div></article>
+<article class="tt-detail"><span class="tt-detail-icon" aria-hidden="true">≠</span><div><h3>Not therapy</h3><p>The focus is communication and practical understanding. PCM is not diagnosis or psychotherapy.</p></div></article>
 </div>
 </div>
 </section>
@@ -151,5 +155,14 @@ body{margin:0;background:#fff}
 
 <footer class="tt-footer"><div class="tt-container"><div class="tt-footer-grid"><p>Maia Mitšulis · Certified PCM trainer in Estonia</p><p><a href="../index.html">Home</a> · <a href="../services.html">Services</a> · <a href="mailto:contact@tujutaju.ee">contact@tujutaju.ee</a></p></div></div></footer>
 </div>
+<script>
+let ttSituationIndex=0;
+function ttSituationMetrics(){const t=document.getElementById('ttSituationTrack');if(!t)return null;const cards=[...t.querySelectorAll('.tt-situation')];if(!cards.length)return null;const gap=18;const step=cards[0].getBoundingClientRect().width+gap;const visible=Math.max(1,Math.round((t.clientWidth+gap)/step));return{t,cards,step,maxIndex:Math.max(0,cards.length-visible)};}
+function ttSetSituation(index,behavior='smooth'){const m=ttSituationMetrics();if(!m)return;ttSituationIndex=Math.max(0,Math.min(index,m.maxIndex));m.t.scrollTo({left:ttSituationIndex*m.step,behavior});ttUpdateSituationDots();}
+function ttUpdateSituationDots(){document.querySelectorAll('.tt-carousel-dot').forEach((dot,i)=>dot.setAttribute('aria-current',String(i===ttSituationIndex)));}
+function ttBuildSituationDots(){const m=ttSituationMetrics();const dots=document.getElementById('ttSituationDots');if(!m||!dots)return;ttSituationIndex=Math.min(ttSituationIndex,m.maxIndex);dots.replaceChildren();for(let i=0;i<=m.maxIndex;i++){const dot=document.createElement('button');dot.type='button';dot.className='tt-carousel-dot';dot.setAttribute('aria-label',`Show situation slide ${i+1}`);dot.addEventListener('click',()=>ttSetSituation(i));dots.appendChild(dot);}ttUpdateSituationDots();}
+document.getElementById('ttSituationTrack')?.addEventListener('scroll',()=>{const m=ttSituationMetrics();if(!m)return;ttSituationIndex=Math.max(0,Math.min(Math.round(m.t.scrollLeft/m.step),m.maxIndex));ttUpdateSituationDots();},{passive:true});
+window.addEventListener('load',ttBuildSituationDots);window.addEventListener('resize',ttBuildSituationDots);
+</script>
 </body>
 </html>
