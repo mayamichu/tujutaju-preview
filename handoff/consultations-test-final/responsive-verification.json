@@ -1,0 +1,62 @@
+{
+  "desktop": {
+    "copy_identical": true,
+    "section_geometry_exact": true,
+    "native_node_geometry_differences": [],
+    "portrait_tablet_40px_outer_field": true,
+    "heading_styles_identical": true,
+    "no_overflow": true,
+    "fonts_loaded": true,
+    "images_loaded": true,
+    "one_shared_header_footer": true,
+    "navigation_hidden": true
+  },
+  "tablet-landscape": {
+    "copy_identical": true,
+    "section_geometry_exact": true,
+    "native_node_geometry_differences": [],
+    "portrait_tablet_40px_outer_field": true,
+    "heading_styles_identical": true,
+    "no_overflow": true,
+    "fonts_loaded": true,
+    "images_loaded": true,
+    "one_shared_header_footer": true,
+    "navigation_hidden": true
+  },
+  "tablet-portrait": {
+    "copy_identical": true,
+    "section_geometry_exact": true,
+    "native_node_geometry_differences": [],
+    "portrait_tablet_40px_outer_field": true,
+    "heading_styles_identical": true,
+    "no_overflow": true,
+    "fonts_loaded": true,
+    "images_loaded": true,
+    "one_shared_header_footer": true,
+    "navigation_hidden": true
+  },
+  "phone-landscape": {
+    "copy_identical": true,
+    "section_geometry_exact": true,
+    "native_node_geometry_differences": [],
+    "portrait_tablet_40px_outer_field": true,
+    "heading_styles_identical": true,
+    "no_overflow": true,
+    "fonts_loaded": true,
+    "images_loaded": true,
+    "one_shared_header_footer": true,
+    "navigation_hidden": true
+  },
+  "phone-portrait": {
+    "copy_identical": true,
+    "section_geometry_exact": true,
+    "native_node_geometry_differences": [],
+    "portrait_tablet_40px_outer_field": true,
+    "heading_styles_identical": true,
+    "no_overflow": true,
+    "fonts_loaded": true,
+    "images_loaded": true,
+    "one_shared_header_footer": true,
+    "navigation_hidden": true
+  }
+}
