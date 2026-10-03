@@ -258,7 +258,50 @@ body{margin:0;background:#fff}
  .tt-paths .tt-section-title{margin-bottom:16px}
  .tt-contexts{padding-top:44px}
  .tt-contexts .tt-section-title{max-width:none}
- .tt-detail-grid{grid-auto-rows:1fr;row-gap:40px}
+ .tt-detail-grid{grid-auto-rows:1fr;row-gap:20px}
+ /* Home CTA: heading and action at left, supporting copy at right. */
+ .tt-cta-panel{grid-template-columns:minmax(0,.62fr) minmax(0,.38fr);grid-template-rows:auto auto auto;gap:0 40px;align-items:start}
+ .tt-cta-panel>div:first-child{display:contents}
+ .tt-cta .tt-kicker{grid-column:1;grid-row:1}
+ .tt-cta .tt-section-title{grid-column:1;grid-row:2}
+ .tt-cta-panel>div:first-child>p:not(.tt-kicker){grid-column:2;grid-row:1/4;margin:0}
+ .tt-cta-actions{grid-column:1;grid-row:3;margin-top:20px}
+}
+/* Portrait tablet: retain the outer field and internal component padding. */
+@media(min-width:621px) and (max-width:1199px) and (orientation:portrait){
+ .tt-detail-grid{row-gap:16px}
+ .tt-paths .tt-section-title{margin-bottom:16px}
+ .tt-cta-panel{align-items:stretch}
+ .tt-cta-actions{align-self:end;justify-self:end;align-items:flex-end}
+}
+/* In the two-column portrait Hero, ground the artwork at the end of the body copy. */
+@media(min-width:851px) and (max-width:1199px) and (orientation:portrait){
+ .tt-hero-grid{row-gap:0}
+ .tt-hero-copy{display:contents}
+ .tt-hero-copy>*{grid-column:1}
+ .tt-hero-copy>.tt-kicker{grid-row:1}
+ .tt-hero-copy>.tt-title{grid-row:2}
+ .tt-hero-copy>.tt-hero-text{grid-row:3}
+ .tt-hero-copy>.tt-hero-meta{grid-row:4}
+ .tt-hero-copy>.tt-hero-actions{grid-row:5}
+ .tt-hero-photo{grid-column:2;grid-row:1/4;align-self:end;margin:0}
+ .tt-hero-photo img{transform:none}
+}
+@media(max-width:620px) and (orientation:portrait){
+ .tt-hero-copy{text-align:left}
+ .tt-hero-actions{text-align:left}
+ .tt-hero-actions .tt-button{margin-left:0}
+ .tt-paths .tt-section-title{margin-bottom:16px}
+ .tt-process-visual{margin-inline:auto}
+ .tt-process-image{margin-inline:auto}
+}
+/* Phone landscape retains its layout, with half-width artwork and a shorter exit gap. */
+@media(max-width:950px) and (orientation:landscape) and (max-height:500px){
+ .tt-hero-photo{width:min(50%,230px);margin-inline:auto}
+ .tt-hero{padding-bottom:36px}
+}
+@media(max-width:620px) and (orientation:landscape) and (max-height:500px){
+ .tt-hero-photo{width:min(50%,180px)}
 }
 @media(prefers-reduced-motion:reduce){.tt-quotes{scroll-behavior:auto}.tt-button,.tt-carousel-dot{transition:none}.tt-button:hover{transform:none}}
 </style>
