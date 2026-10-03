@@ -259,12 +259,14 @@ body{margin:0;background:#fff}
  .tt-contexts{padding-top:44px}
  .tt-contexts .tt-section-title{max-width:none}
  .tt-detail-grid{grid-auto-rows:1fr;row-gap:20px}
- /* Home CTA: heading and action at left, supporting copy at right. */
- .tt-cta-panel{grid-template-columns:minmax(0,.62fr) minmax(0,.38fr);grid-template-rows:auto auto auto;gap:0 40px;align-items:start}
+ /* Home editorial alignment: the right copy follows the preceding second
+    testimonial text guide (half the 18px track gap plus 28px card inset). */
+ .tt-cta-panel{grid-template-columns:minmax(0,calc(50% + 9px + 28px - 40px)) minmax(0,1fr);grid-template-rows:auto auto auto;gap:0 40px;align-items:start}
  .tt-cta-panel>div:first-child{display:contents}
  .tt-cta .tt-kicker{grid-column:1;grid-row:1}
- .tt-cta .tt-section-title{grid-column:1;grid-row:2}
- .tt-cta-panel>div:first-child>p:not(.tt-kicker){grid-column:2;grid-row:1/4;margin:0}
+ /* Retain the prior heading measure while the supporting copy follows the guide. */
+ .tt-cta .tt-section-title{grid-column:1;grid-row:2;width:calc(124% - 21.08px)}
+ .tt-cta-panel>div:first-child>p:not(.tt-kicker){grid-column:2;grid-row:1/4;align-self:end;margin:0}
  .tt-cta-actions{grid-column:1;grid-row:3;margin-top:20px}
 }
 /* Portrait tablet: retain the outer field and internal component padding. */
@@ -288,20 +290,37 @@ body{margin:0;background:#fff}
  .tt-hero-photo img{transform:none}
 }
 @media(max-width:620px) and (orientation:portrait){
- .tt-hero-copy{text-align:left}
- .tt-hero-actions{text-align:left}
- .tt-hero-actions .tt-button{margin-left:0}
+ .tt-hero-copy{text-align:right}
+ .tt-hero-actions{text-align:right}
+ .tt-hero-actions .tt-button{margin-left:auto;text-align:right}
  .tt-paths .tt-section-title{margin-bottom:16px}
  .tt-process-visual{margin-inline:auto}
  .tt-process-image{margin-inline:auto}
 }
-/* Phone landscape retains its layout, with half-width artwork and a shorter exit gap. */
+/* Phone landscape: full-width introduction, then details and the small artwork together. */
 @media(max-width:950px) and (orientation:landscape) and (max-height:500px){
- .tt-hero-photo{width:min(50%,230px);margin-inline:auto}
+ .tt-hero-grid{grid-template-columns:minmax(0,1fr) 230px;gap:0 32px}
+ .tt-hero-copy{display:contents}
+ .tt-hero-copy>.tt-kicker{grid-column:1/-1;grid-row:1}
+ .tt-hero-copy>.tt-title{grid-column:1/-1;grid-row:2}
+ .tt-hero-copy>.tt-hero-text{grid-column:1/-1;grid-row:3}
+ .tt-hero-meta{grid-column:1;grid-row:4}
+ .tt-hero-meta-item{display:block}
+ .tt-hero-actions{grid-column:1;grid-row:5}
+ .tt-hero-photo{grid-column:2;grid-row:4/6;align-self:center;justify-self:end;width:100%;margin:22px 0 0}
+ .tt-hero-photo img{transform:none}
  .tt-hero{padding-bottom:36px}
 }
+/* Retain the already-approved smaller artwork at the two landscape extremes. */
+@media(min-width:851px) and (max-width:950px) and (orientation:landscape) and (max-height:500px){
+ .tt-hero-grid{grid-template-columns:minmax(0,1fr) calc((100vw - 80px)/4.6)}
+}
 @media(max-width:620px) and (orientation:landscape) and (max-height:500px){
- .tt-hero-photo{width:min(50%,180px)}
+ .tt-hero-grid{grid-template-columns:minmax(0,1fr) 180px}
+}
+/* The two-column context layout leaves room below Individual for Leaders. */
+@media(min-width:621px) and (max-width:850px) and (orientation:landscape) and (max-height:500px){
+ .tt-context:last-child{transform:translateY(-60px)}
 }
 @media(prefers-reduced-motion:reduce){.tt-quotes{scroll-behavior:auto}.tt-button,.tt-carousel-dot{transition:none}.tt-button:hover{transform:none}}
 </style>
