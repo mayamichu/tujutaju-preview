@@ -87,28 +87,32 @@ body{margin:0;background:#fff}
 .tt-button:focus-visible,.tt-quotes:focus-visible{outline:2px solid var(--tt-blue);outline-offset:4px}
 
 /* White introduction, with the exact conversation artwork from approved Home. */
-.tt-hero{padding:58px 0 66px}
-.tt-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:54px;align-items:center}
+.tt-hero{padding:34px 0 54px}
+.tt-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px;align-items:start}
 .tt-hero-copy>.tt-kicker{margin-bottom:19px;font-family:Poppins,sans-serif;font-size:18px;font-weight:700;line-height:1.3;letter-spacing:.12em;text-transform:uppercase}
 .tt-hero-text{margin:12px 0 0;font-size:19px;line-height:1.5}
 .tt-hero-meta{margin-top:22px;font-size:16px;font-weight:600;line-height:1.5}
 .tt-hero-actions{margin-top:24px}
-.tt-hero-photo img{display:block;width:100%;height:auto}
+/* Pair the visible artwork with the H1; account for the image's blank top edge. */
+.tt-hero-photo{margin-top:calc(18px * 1.3 + 19px)}
+.tt-hero-photo img{display:block;width:100%;height:auto;transform:translateY(-3%)}
 
-/* One recognition field; every situation is visible without a carousel. */
+/* Approved Home editorial recognition: 24px text inset, small yellow marks,
+   56px desktop column gap and 18px/16px heading-to-grid/row rhythm. */
 .tt-situations-panel{background:var(--tt-blue-soft);border-radius:50px 50px 50px 0;padding:32px 40px 38px}
-.tt-situations-head{margin-bottom:28px;max-width:800px}
-.tt-situation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.tt-situation{padding:22px 26px;background:#fff;border-radius:24px 24px 24px 0}
-.tt-situation:nth-child(even){border-radius:0 24px 24px 24px}
-.tt-situation p{margin:0;font-size:18px;line-height:1.5}
+.tt-situations-head{margin-bottom:18px;max-width:800px}
+.tt-situation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 56px;max-width:980px;align-items:start}
+.tt-situation{position:relative;padding-left:24px}
+.tt-situation:before{content:"";position:absolute;left:0;top:10px;width:16px;height:3px;background:var(--tt-yellow)}
+.tt-situation p{max-width:390px;margin:0;font-size:15px;line-height:1.5}
 
 /* The two coloured paths are the page's main decision. */
-.tt-paths{padding-top:60px}
+/* Home recognition-to-paths spacing, followed by its 54px editorial pause. */
+.tt-paths{padding-top:44px}
 .tt-paths .tt-section-title{color:var(--tt-pink);margin-bottom:28px}
 .tt-path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
-.tt-path{padding:34px 36px 36px;display:flex;flex-direction:column;background:var(--tt-yellow);border-radius:40px 40px 40px 0}
-.tt-path:last-child{background:var(--tt-pink);border-radius:40px 0 40px 40px}
+.tt-path{padding:34px 36px 36px;display:flex;flex-direction:column;background:var(--tt-yellow-bg);border-radius:40px 40px 40px 0}
+.tt-path:last-child{background:var(--tt-pink-bg);border-radius:40px 0 40px 40px}
 .tt-path p{margin:0 0 16px}
 .tt-path p.tt-path-label{margin:0 0 8px;font-weight:600;font-size:16px}
 .tt-path h3{margin:0 0 14px;font-size:30px;line-height:1.25}
@@ -116,11 +120,13 @@ body{margin:0;background:#fff}
 .tt-path-prompt{font-weight:600}
 .tt-path ul{margin:0 0 20px;padding-left:21px}
 .tt-path li+li{margin-top:6px}
-.tt-path .tt-button{align-self:flex-start;margin-top:auto;background:#fff}
-.tt-path .tt-button:hover{background:var(--tt-pink-btn)}
+/* Final Trainings / Home card-button dimensions and corresponding accents. */
+.tt-path .tt-button{align-self:flex-start;margin-top:auto;padding:5px 16px;border-radius:16px 0 16px 16px;font-size:15px;font-weight:700;line-height:1.25;background:var(--tt-yellow)}
+.tt-path:last-child .tt-button{background:var(--tt-pink)}
+.tt-path .tt-button:hover,.tt-path .tt-button:focus-visible{background:var(--tt-pink-btn)}
 
 /* White context columns, with colour confined to their headings. */
-.tt-contexts{padding:68px 0}
+.tt-contexts{padding:54px 0 34px}
 .tt-contexts .tt-section-title{max-width:820px;margin-bottom:32px}
 .tt-context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
 .tt-context h3{margin:0 0 18px;font-size:26px;line-height:1.28;color:var(--tt-pink)}
@@ -131,21 +137,23 @@ body{margin:0;background:#fff}
 .tt-context .tt-context-note+.tt-context-note{margin-top:0}
 
 .tt-profile-panel{background:var(--tt-blue-soft);border-radius:0 50px 50px 50px;padding:36px 40px 40px}
-.tt-profile-head{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.tt-profile-head{--tt-map-size:40px;display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.tt-profile-intro{padding-top:calc(15px * 1.65 + var(--tt-map-size) * 1.16)}
 .tt-profile-intro p{margin:0 0 16px}
 .tt-profile-intro p:last-child{margin-bottom:0}
-.tt-outcome-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:32px}
-.tt-outcome{padding:24px 22px;background:#fff;border-radius:24px 24px 0 24px}
-.tt-outcome-icon{width:42px;height:42px;margin-bottom:16px;display:flex;align-items:center;justify-content:center}
+.tt-outcome-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 48px;margin-top:32px}
+.tt-outcome{display:grid;grid-template-columns:42px minmax(0,1fr);gap:18px;align-items:center}
+.tt-outcome-icon{width:42px;height:42px;display:flex;align-items:center;justify-content:center}
 .tt-outcome-icon svg,.tt-detail-icon svg{width:25px;height:25px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .tt-outcome h3{margin:0 0 12px;font-size:20px;line-height:1.3}
 .tt-outcome p{margin:0}
 
-.tt-process{padding-top:60px}
+/* Final Trainings uses 34px from its opening composition into the process. */
+.tt-process{padding-top:34px}
 .tt-process-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
 .tt-process .tt-section-title{color:var(--tt-pink)}
 .tt-process-visual{margin:26px 0 0}
-.tt-process-image{display:block;width:auto;max-width:100%;height:auto;max-height:210px}
+.tt-process-image{display:block;width:auto;max-width:100%;height:auto;max-height:210px;box-shadow:0 0 3px rgba(0,0,0,.12)}
 .tt-process-caption{margin-top:10px;font-size:15px;font-weight:600}
 .tt-process-list{display:grid;gap:16px}
 .tt-process-item{display:grid;grid-template-columns:40px minmax(0,1fr);gap:18px;padding:24px;background:var(--tt-blue-soft);border-radius:24px 24px 24px 0}
@@ -155,7 +163,8 @@ body{margin:0;background:#fff}
 .tt-process-item h3{margin:0 0 8px;font-size:22px;line-height:1.28}
 .tt-process-item p{margin:0}
 
-.tt-details{padding:68px 0}
+/* Home editorial-to-information pause, then its 40px lead-in to proof. */
+.tt-details{padding:54px 0 40px}
 .tt-details .tt-section-title{margin-bottom:32px}
 .tt-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 54px}
 .tt-detail{display:grid;grid-template-columns:44px minmax(0,1fr);gap:16px;align-items:start}
@@ -178,29 +187,27 @@ body{margin:0;background:#fff}
 .tt-carousel-dot[aria-current="true"]{width:22px;background:var(--tt-blue)}
 .tt-carousel-dot:focus-visible{outline:2px solid var(--tt-blue);outline-offset:4px}
 
-.tt-cta{padding:52px 0 44px}
+/* Final Trainings proof-to-CTA spacing; Home page-end breathing room. */
+.tt-cta{padding:44px 0}
 .tt-cta-panel{background:var(--tt-yellow-bg);border-radius:0 50px 50px 50px;padding:32px 40px 36px;display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:40px;align-items:center}
 .tt-cta .tt-section-title{color:var(--tt-pink)}
 .tt-cta p{margin:16px 0 0}
 .tt-cta p.tt-kicker{margin:0}
 .tt-cta-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 
-/* Existing footer presentation remains unchanged. */
-.tt-footer{font-family:Poppins,sans-serif;background:var(--tt-blue);padding:30px 0 24px;color:#fff;border-radius:70px 0 0 0}
-.tt-footer-grid{display:flex;justify-content:space-between;gap:32px;align-items:center}
-.tt-footer p{margin:0;font-size:14px;line-height:1.6}
-.tt-footer a{color:#fff;text-decoration:none}.tt-footer a:hover{text-decoration:underline}
-
 @media(max-width:1024px){
  .tt-title{font-size:42px}.tt-section-title{font-size:36px}
- .tt-hero-grid{gap:32px}.tt-outcome-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .tt-situations-head{margin-bottom:21px}.tt-situation-grid{gap:18px 32px}
+ .tt-profile-head{--tt-map-size:36px}.tt-outcome-grid{column-gap:32px}
  .tt-context-grid{gap:28px}.tt-context h3{font-size:24px}
  .tt-path{padding:28px}.tt-path h3{font-size:27px}
  .tt-process-wrap{gap:36px}.tt-cta-panel{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:28px}
 }
 @media(max-width:850px){
- .tt-hero-grid{grid-template-columns:1fr}.tt-hero-photo{width:min(100%,460px);margin-inline:auto}
- .tt-hero{padding:48px 0 52px}.tt-profile-head{grid-template-columns:1fr;gap:24px}
+ .tt-hero-grid{grid-template-columns:1fr}.tt-hero-photo{width:min(100%,460px);margin:0 auto}
+ .tt-hero-photo img{transform:none}
+ .tt-hero{padding:34px 0 54px}.tt-profile-head{grid-template-columns:1fr;gap:24px}
+ .tt-profile-intro{padding-top:0}
  .tt-context-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
  .tt-process-wrap{grid-template-columns:1fr;gap:28px}
  .tt-process-wrap>div:first-child{display:grid;grid-template-columns:1fr auto;column-gap:28px}
@@ -208,8 +215,6 @@ body{margin:0;background:#fff}
  .tt-process-visual{grid-column:2;grid-row:1/span 2;margin:0;max-width:180px;align-self:center}
  .tt-situations-panel,.tt-profile-panel{padding:30px 28px 34px}
  .tt-proof-panel{padding:30px 28px 8px}.tt-carousel-dots{height:32px}
- .tt-footer .tt-container{width:min(100% - 32px,1160px)}
- .tt-footer-grid{align-items:flex-start;flex-direction:column}
 }
 /* Match the approved outer guides; panel padding is independent of this field. */
 @media(min-width:621px) and (max-width:1199px) and (orientation:portrait){
@@ -227,8 +232,9 @@ body{margin:0;background:#fff}
  .tt-hero-photo{max-width:360px}
  .tt-situation-grid,.tt-context-grid,.tt-detail-grid,.tt-outcome-grid{grid-template-columns:1fr}
  .tt-situations-panel,.tt-profile-panel,.tt-cta-panel{padding:28px 24px 32px;border-radius:0 32px 32px 32px}
- .tt-situation{padding:20px}.tt-situation p{font-size:17px}
- .tt-paths,.tt-process{padding-top:44px}.tt-contexts,.tt-details{padding:48px 0}
+ .tt-situation p{max-width:none}
+ .tt-paths{padding-top:33px}.tt-process{padding-top:20px}
+ .tt-contexts{padding:38px 0 24px}.tt-details{padding:38px 0 40px}
  .tt-path{padding:28px 24px;border-radius:32px 32px 32px 0}
  .tt-path:last-child{border-radius:32px 0 32px 32px}
  .tt-context-grid{gap:28px}.tt-context p:last-child{margin-bottom:0}
@@ -237,9 +243,8 @@ body{margin:0;background:#fff}
  .tt-num{width:32px;height:32px}.tt-process-item h3{font-size:20px}
  .tt-quotes{grid-auto-columns:100%}.tt-quote{padding:24px}
  .tt-proof-panel{padding:28px 24px 8px;border-radius:32px 0 32px 32px}
- .tt-carousel-dots{height:32px}.tt-cta{padding-top:40px}
+ .tt-carousel-dots{height:32px}
 }
-@media(max-width:600px){.tt-footer .tt-container{width:min(100% - 28px,1160px)}.tt-footer{border-radius:40px 0 0 0}}
 @media(prefers-reduced-motion:reduce){.tt-quotes{scroll-behavior:auto}.tt-button,.tt-carousel-dot{transition:none}.tt-button:hover{transform:none}}
 </style>
 </head>
@@ -250,8 +255,8 @@ body{margin:0;background:#fff}
 <div class="tt-container"><div class="tt-hero-grid">
 <div class="tt-hero-copy">
 <p class="tt-kicker">Consultations</p>
-<h1 class="tt-title"><span class="tt-title-line">Understand what is happening</span><span class="tt-title-line">in communication —</span><span class="tt-title-line">and what you can do next.</span></h1>
-<p class="tt-hero-text">Bring one situation that keeps creating misunderstanding, tension or distance — or choose a deeper exploration of your own communication patterns with an official PCM Personality Profile.</p>
+<h1 class="tt-title"><span class="tt-title-line">Understand what is happening</span><span class="tt-title-line">in communication</span><span class="tt-title-line">and what you can do next.</span></h1>
+<p class="tt-hero-text">Bring one situation that keeps creating misunderstanding, tension or distance, or choose a deeper exploration of your own communication patterns with an official PCM Personality Profile.</p>
 <div class="tt-hero-meta"><span class="tt-hero-meta-item">Individual, couple or leadership context</span><span class="tt-hero-meta-item"> · in Estonian, English or Russian</span><span class="tt-hero-meta-item"> · online or in Tallinn</span></div>
 <div class="tt-hero-actions"><a class="tt-button" href="mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call">Book a free 20-minute call</a></div>
 </div>
@@ -310,12 +315,12 @@ body{margin:0;background:#fff}
 
 <section class="tt-profile">
 <div class="tt-container"><div class="tt-profile-panel">
-<div class="tt-profile-head"><div><p class="tt-kicker">PCM Profile and debrief</p><h2 class="tt-section-title">A practical map<br>of yourself.</h2></div><div class="tt-profile-intro"><p>Your profile doesn’t give you another universal list of things you should be doing. It helps you see what genuinely supports you — and give yourself permission to take your own needs seriously.</p><p>During the debrief, we connect the profile to your strengths, psychological needs, motivation and the way you respond under pressure. You leave with a personal framework you can return to in work, relationships and everyday life.</p></div></div>
+<div class="tt-profile-head"><div><p class="tt-kicker">PCM Profile and debrief</p><h2 class="tt-section-title">Practical<br>Map<br>of yourself</h2></div><div class="tt-profile-intro"><p>Your profile doesn’t give you another universal list of things you should be doing. It helps you see what genuinely supports you — and give yourself permission to take your own needs seriously.</p><p>During the debrief, we connect the profile to your strengths, psychological needs, motivation and the way you respond under pressure. You leave with a personal framework you can return to in work, relationships and everyday life.</p></div></div>
 <div class="tt-outcome-grid">
-<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7 13 2.2-1.3 2.1-4.9c.3-.8 1.3-1.1 2-.6.5.4.7 1 .5 1.6l-.7 2.2H18a2 2 0 0 1 1.9 2.6l-1.5 4.8a3 3 0 0 1-2.9 2.1H9.8L7 18"/><path d="M3.5 12.5H7v7H3.5z"/><path d="m18.5 3 .4 1.1L20 4.5l-1.1.4-.4 1.1-.4-1.1-1.1-.4 1.1-.4.4-1.1Z"/></svg></span><h3>Use your strengths more consciously</h3><p>See what comes naturally to you — and how to use more of your personality when a situation calls for something different.</p></article>
-<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="17" height="12" rx="2"/><path d="M20 10h1.5v4H20M6.5 9v6M10 9v6M13.5 9v6"/></svg></span><h3>Know what keeps you resourceful</h3><p>Understand the psychological needs that support your motivation, balance and ability to be yourself.</p></article>
-<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.6"/><path d="M12 3.5V2M5.5 5.5 4.4 4.4M18.5 5.5l1.1-1.1"/></svg></span><h3>Recognise stress earlier</h3><p>Notice the first changes in your communication and behaviour before pressure pulls you into a familiar unhelpful pattern.</p></article>
-<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/><circle cx="12" cy="12" r=".8"/></svg></span><h3>Have more choice in communication</h3><p>Prepare for important conversations, adjust your approach and respond with more awareness instead of repeating the same reaction.</p></article>
+<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7 13 2.2-1.3 2.1-4.9c.3-.8 1.3-1.1 2-.6.5.4.7 1 .5 1.6l-.7 2.2H18a2 2 0 0 1 1.9 2.6l-1.5 4.8a3 3 0 0 1-2.9 2.1H9.8L7 18"/><path d="M3.5 12.5H7v7H3.5z"/><path d="m18.5 3 .4 1.1L20 4.5l-1.1.4-.4 1.1-.4-1.1-1.1-.4 1.1-.4.4-1.1Z"/></svg></span><div class="tt-outcome-copy"><h3>Use your strengths more consciously</h3><p>See what comes naturally to you — and how to use more of your personality when a situation calls for something different.</p></div></article>
+<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="17" height="12" rx="2"/><path d="M20 10h1.5v4H20M6.5 9v6M10 9v6M13.5 9v6"/></svg></span><div class="tt-outcome-copy"><h3>Know what keeps you resourceful</h3><p>Understand the psychological needs that support your motivation, balance and ability to be yourself.</p></div></article>
+<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.6"/><path d="M12 3.5V2M5.5 5.5 4.4 4.4M18.5 5.5l1.1-1.1"/></svg></span><div class="tt-outcome-copy"><h3>Recognise stress earlier</h3><p>Notice the first changes in your communication and behaviour before pressure pulls you into a familiar unhelpful pattern.</p></div></article>
+<article class="tt-outcome"><span class="tt-outcome-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/><circle cx="12" cy="12" r=".8"/></svg></span><div class="tt-outcome-copy"><h3>Have more choice in communication</h3><p>Prepare for important conversations, adjust your approach and respond with more awareness instead of repeating the same reaction.</p></div></article>
 </div>
 </div></div>
 </section>
@@ -361,7 +366,6 @@ body{margin:0;background:#fff}
 <div class="tt-cta-actions"><a class="tt-button" href="mailto:contact@tujutaju.ee?subject=Consultation%20inquiry">Book a consultation</a><a class="tt-button tt-button-secondary" href="mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call">Book a free 20-minute call</a></div>
 </div></div></section>
 
-<footer class="tt-footer"><div class="tt-container"><div class="tt-footer-grid"><p>Maia Mitšulis · Certified PCM trainer in Estonia</p><p><a href="../index.html">Home</a> · <a href="../services.html">Services</a> · <a href="mailto:contact@tujutaju.ee">contact@tujutaju.ee</a></p></div></div></footer>
 </div>
 <script>
 let ttQuoteIndex=0;
