@@ -1,0 +1,57 @@
+[
+  {
+    "viewport": "desktop",
+    "test_header_offset": 80,
+    "element_style_geometry_differences": [],
+    "text_equal": true,
+    "overflow": false,
+    "visible_css": false,
+    "js_errors": [],
+    "images_resolve": true,
+    "shared_before_after_equal": true
+  },
+  {
+    "viewport": "phone-landscape",
+    "test_header_offset": 80,
+    "element_style_geometry_differences": [],
+    "text_equal": true,
+    "overflow": false,
+    "visible_css": false,
+    "js_errors": [],
+    "images_resolve": true,
+    "shared_before_after_equal": true
+  },
+  {
+    "viewport": "phone-portrait",
+    "test_header_offset": 64,
+    "element_style_geometry_differences": [],
+    "text_equal": true,
+    "overflow": false,
+    "visible_css": false,
+    "js_errors": [],
+    "images_resolve": true,
+    "shared_before_after_equal": true
+  },
+  {
+    "viewport": "tablet-landscape",
+    "test_header_offset": 80,
+    "element_style_geometry_differences": [],
+    "text_equal": true,
+    "overflow": false,
+    "visible_css": false,
+    "js_errors": [],
+    "images_resolve": true,
+    "shared_before_after_equal": true
+  },
+  {
+    "viewport": "tablet-portrait",
+    "test_header_offset": 80,
+    "element_style_geometry_differences": [],
+    "text_equal": true,
+    "overflow": false,
+    "visible_css": false,
+    "js_errors": [],
+    "images_resolve": true,
+    "shared_before_after_equal": true
+  }
+]

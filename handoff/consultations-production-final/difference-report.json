@@ -1,0 +1,28 @@
+{
+  "source_sha256": "2f591bfc9072e1aa0cd957e83c549fd69bbc002916bfcdc4768b507402b9142e",
+  "prepared_sha256": "83738459f4410fd4cc49b9aafa31ebe143a5f027945b84894e311c65664f118a",
+  "differences": [
+    {
+      "path": "/0/elements/0/elements/0/elements/0/elements/1/elements/0/settings/image/url",
+      "before": "https://tujutaju.ee/test/wp-content/uploads/2026/09/PCM_LearningDuo_EstherAarts_toFinal_Flat_RGB-scaled.png",
+      "after": "https://tujutaju.ee/wp-content/uploads/2026/09/PCM_LearningDuo_EstherAarts_toFinal_Flat_RGB-scaled.png"
+    },
+    {
+      "path": "/0/elements/5/elements/0/elements/0/elements/0/elements/2/elements/0/settings/image/url",
+      "before": "https://tujutaju.ee/test/wp-content/uploads/2026/04/IMG_2766-scaled.jpeg",
+      "after": "https://tujutaju.ee/wp-content/uploads/2026/04/IMG_2766-scaled.jpeg"
+    },
+    {
+      "path": "/1/settings/html",
+      "before": "8 occurrences of body.elementor-page-2044",
+      "after": "8 occurrences of body.page-id-2044"
+    }
+  ],
+  "remaining_test_references": 0,
+  "remaining_elementor_page_2044_references": 0,
+  "urls": [
+    "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap",
+    "https://tujutaju.ee/wp-content/uploads/2026/04/IMG_2766-scaled.jpeg",
+    "https://tujutaju.ee/wp-content/uploads/2026/09/PCM_LearningDuo_EstherAarts_toFinal_Flat_RGB-scaled.png"
+  ]
+}

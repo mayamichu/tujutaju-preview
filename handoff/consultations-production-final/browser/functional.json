@@ -1,0 +1,182 @@
+[
+  {
+    "viewport": "desktop",
+    "size": [
+      1440,
+      1000
+    ],
+    "carousel": [
+      {
+        "index": 0,
+        "left": 0,
+        "expected": 0,
+        "current": "Show testimonial slide 1"
+      },
+      {
+        "index": 1,
+        "left": 549,
+        "expected": 549,
+        "current": "Show testimonial slide 2"
+      },
+      {
+        "index": 2,
+        "left": 1098,
+        "expected": 1098,
+        "current": "Show testimonial slide 3"
+      }
+    ],
+    "cta_clicks": [
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call",
+      "mailto:contact@tujutaju.ee?subject=Consultation%20without%20profiling",
+      "mailto:contact@tujutaju.ee?subject=PCM%20profile%20and%20debrief",
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call"
+    ],
+    "carousel_pass": true,
+    "cta_pass": true,
+    "root_x": 0
+  },
+  {
+    "viewport": "tablet-landscape",
+    "size": [
+      1180,
+      820
+    ],
+    "carousel": [
+      {
+        "index": 0,
+        "left": 0,
+        "expected": 0,
+        "current": "Show testimonial slide 1"
+      },
+      {
+        "index": 1,
+        "left": 535,
+        "expected": 535,
+        "current": "Show testimonial slide 2"
+      },
+      {
+        "index": 2,
+        "left": 1070,
+        "expected": 1070,
+        "current": "Show testimonial slide 3"
+      }
+    ],
+    "cta_clicks": [
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call",
+      "mailto:contact@tujutaju.ee?subject=Consultation%20without%20profiling",
+      "mailto:contact@tujutaju.ee?subject=PCM%20profile%20and%20debrief",
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call"
+    ],
+    "carousel_pass": true,
+    "cta_pass": true,
+    "root_x": 0
+  },
+  {
+    "viewport": "tablet-portrait",
+    "size": [
+      820,
+      1180
+    ],
+    "carousel": [
+      {
+        "index": 0,
+        "left": 0,
+        "expected": 0,
+        "current": "Show testimonial slide 1"
+      },
+      {
+        "index": 1,
+        "left": 351,
+        "expected": 351,
+        "current": "Show testimonial slide 2"
+      },
+      {
+        "index": 2,
+        "left": 702,
+        "expected": 702,
+        "current": "Show testimonial slide 3"
+      }
+    ],
+    "cta_clicks": [
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call",
+      "mailto:contact@tujutaju.ee?subject=Consultation%20without%20profiling",
+      "mailto:contact@tujutaju.ee?subject=PCM%20profile%20and%20debrief",
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call"
+    ],
+    "carousel_pass": true,
+    "cta_pass": true,
+    "root_x": 0
+  },
+  {
+    "viewport": "phone-landscape",
+    "size": [
+      844,
+      390
+    ],
+    "carousel": [
+      {
+        "index": 0,
+        "left": 0,
+        "expected": 0,
+        "current": "Show testimonial slide 1"
+      },
+      {
+        "index": 1,
+        "left": 379,
+        "expected": 379,
+        "current": "Show testimonial slide 2"
+      },
+      {
+        "index": 2,
+        "left": 758,
+        "expected": 758,
+        "current": "Show testimonial slide 3"
+      }
+    ],
+    "cta_clicks": [
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call",
+      "mailto:contact@tujutaju.ee?subject=Consultation%20without%20profiling",
+      "mailto:contact@tujutaju.ee?subject=PCM%20profile%20and%20debrief",
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call"
+    ],
+    "carousel_pass": true,
+    "cta_pass": true,
+    "root_x": 0
+  },
+  {
+    "viewport": "phone-portrait",
+    "size": [
+      390,
+      844
+    ],
+    "carousel": [
+      {
+        "index": 0,
+        "left": 0,
+        "expected": 0,
+        "current": "Show testimonial slide 1"
+      },
+      {
+        "index": 2,
+        "left": 640,
+        "expected": 640,
+        "current": "Show testimonial slide 3"
+      },
+      {
+        "index": 3,
+        "left": 960,
+        "expected": 960,
+        "current": "Show testimonial slide 4"
+      }
+    ],
+    "cta_clicks": [
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call",
+      "mailto:contact@tujutaju.ee?subject=Consultation%20without%20profiling",
+      "mailto:contact@tujutaju.ee?subject=PCM%20profile%20and%20debrief",
+      "mailto:contact@tujutaju.ee?subject=Free%2020-minute%20introduction%20call"
+    ],
+    "carousel_pass": true,
+    "cta_pass": true,
+    "root_x": 0
+  }
+]
