@@ -1,0 +1,57 @@
+[
+  {
+    "viewport": "desktop",
+    "differences": []
+  },
+  {
+    "viewport": "tablet-landscape",
+    "differences": []
+  },
+  {
+    "viewport": "tablet-portrait",
+    "differences": []
+  },
+  {
+    "viewport": "phone-landscape",
+    "differences": []
+  },
+  {
+    "viewport": "phone-portrait",
+    "differences": [
+      {
+        "part": 0,
+        "index": 28,
+        "a": {
+          "tag": "DIV",
+          "cls": "tt-h__mobilebottom",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "font": "16px / 24px \"Source Sans 3\", sans-serif",
+          "color": "rgb(98, 110, 152)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "18px 0px 0px",
+          "margin": "8px 0px 0px",
+          "borderRadius": "0px",
+          "display": "none"
+        },
+        "b": {
+          "tag": "DIV",
+          "cls": "tt-h__mobilebottom",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "font": "16px / 24px \"Source Sans 3\", sans-serif",
+          "color": "rgb(98, 110, 152)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "18px 0px 0px",
+          "margin": "8px 0px 0px",
+          "borderRadius": "0px",
+          "display": "flex"
+        }
+      }
+    ]
+  }
+]

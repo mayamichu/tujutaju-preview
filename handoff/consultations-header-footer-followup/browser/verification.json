@@ -1,0 +1,297 @@
+[
+  {
+    "viewport": "desktop",
+    "shared": [
+      {
+        "class": "tt-h",
+        "production": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 80
+          }
+        },
+        "reference": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 80
+          }
+        },
+        "geometry_matches": true
+      },
+      {
+        "class": "tt-f",
+        "production": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 4552.109375,
+            "w": 1440,
+            "h": 148.625
+          }
+        },
+        "reference": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 3378.90625,
+            "w": 1440,
+            "h": 148.625
+          }
+        },
+        "geometry_matches": true
+      }
+    ],
+    "navigation_hidden": true,
+    "content_differences_after_header_offset": [],
+    "text_unchanged": true,
+    "overflow": false,
+    "errors": [],
+    "images_ok": true
+  },
+  {
+    "viewport": "phone-landscape",
+    "shared": [
+      {
+        "class": "tt-h",
+        "production": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 844,
+            "h": 80
+          }
+        },
+        "reference": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 844,
+            "h": 80
+          }
+        },
+        "geometry_matches": true
+      },
+      {
+        "class": "tt-f",
+        "production": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 5542.328125,
+            "w": 844,
+            "h": 172.21875
+          }
+        },
+        "reference": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 5620.0625,
+            "w": 844,
+            "h": 172.21875
+          }
+        },
+        "geometry_matches": true
+      }
+    ],
+    "navigation_hidden": true,
+    "content_differences_after_header_offset": [],
+    "text_unchanged": true,
+    "overflow": false,
+    "errors": [],
+    "images_ok": true
+  },
+  {
+    "viewport": "phone-portrait",
+    "shared": [
+      {
+        "class": "tt-h",
+        "production": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 64
+          }
+        },
+        "reference": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 64
+          }
+        },
+        "geometry_matches": true
+      },
+      {
+        "class": "tt-f",
+        "production": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 9033.25,
+            "w": 390,
+            "h": 275.734375
+          }
+        },
+        "reference": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 7313.359375,
+            "w": 390,
+            "h": 339.734375
+          }
+        },
+        "geometry_matches": false
+      }
+    ],
+    "navigation_hidden": true,
+    "content_differences_after_header_offset": [],
+    "text_unchanged": true,
+    "overflow": false,
+    "errors": [],
+    "images_ok": true
+  },
+  {
+    "viewport": "tablet-landscape",
+    "shared": [
+      {
+        "class": "tt-h",
+        "production": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 1180,
+            "h": 80
+          }
+        },
+        "reference": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 1180,
+            "h": 80
+          }
+        },
+        "geometry_matches": true
+      },
+      {
+        "class": "tt-f",
+        "production": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 4749.046875,
+            "w": 1180,
+            "h": 183.015625
+          }
+        },
+        "reference": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 3471.140625,
+            "w": 1180,
+            "h": 183.015625
+          }
+        },
+        "geometry_matches": true
+      }
+    ],
+    "navigation_hidden": true,
+    "content_differences_after_header_offset": [],
+    "text_unchanged": true,
+    "overflow": false,
+    "errors": [],
+    "images_ok": true
+  },
+  {
+    "viewport": "tablet-portrait",
+    "shared": [
+      {
+        "class": "tt-h",
+        "production": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 820,
+            "h": 80
+          }
+        },
+        "reference": {
+          "cls": "tt-h",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 820,
+            "h": 80
+          }
+        },
+        "geometry_matches": true
+      },
+      {
+        "class": "tt-f",
+        "production": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 6284.53125,
+            "w": 820,
+            "h": 170.21875
+          }
+        },
+        "reference": {
+          "cls": "tt-f",
+          "display": "block",
+          "box": {
+            "x": 0,
+            "y": 5860.96875,
+            "w": 820,
+            "h": 149.390625
+          }
+        },
+        "geometry_matches": false
+      }
+    ],
+    "navigation_hidden": true,
+    "content_differences_after_header_offset": [],
+    "text_unchanged": true,
+    "overflow": false,
+    "errors": [],
+    "images_ok": true
+  }
+]
