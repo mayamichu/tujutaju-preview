@@ -1,0 +1,9 @@
+{
+  "environment": "production",
+  "siteurl": "https://tujutaju.ee",
+  "home": "https://tujutaju.ee",
+  "target_slug": "leadership-training",
+  "target_url": "https://tujutaju.ee/leadership-training/",
+  "preflight": {"page_exists": false, "page_id": null, "post_status": null, "template": null, "elementor_data": null, "checked_at": "2026-10-05"},
+  "rollback_action": "Delete newly created page 2864 if rollback is needed; no existing target content existed."
+}
