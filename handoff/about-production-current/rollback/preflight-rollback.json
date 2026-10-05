@@ -1,0 +1,75 @@
+{
+  "siteurl": "https://tujutaju.ee",
+  "home": "https://tujutaju.ee",
+  "target": {
+    "object": {
+      "ID": 306,
+      "post_author": "1",
+      "post_date": "2025-12-09 09:52:55",
+      "post_date_gmt": "2025-12-09 09:52:55",
+      "post_content": "",
+      "post_title": "About",
+      "post_excerpt": "",
+      "post_status": "draft",
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "post_password": "",
+      "post_name": "about-3",
+      "to_ping": "",
+      "pinged": "",
+      "post_modified": "2026-03-11 15:42:01",
+      "post_modified_gmt": "2026-03-11 15:42:01",
+      "post_content_filtered": "",
+      "post_parent": 0,
+      "guid": "https://tujutaju.ee/about-3/",
+      "menu_order": 0,
+      "post_type": "page",
+      "post_mime_type": "",
+      "comment_count": "0",
+      "filter": "raw"
+    },
+    "meta": {
+      "_elementor_edit_mode": [
+        "builder"
+      ],
+      "_elementor_template_type": [
+        "wp-page"
+      ],
+      "_elementor_version": [
+        "3.33.3"
+      ],
+      "_elementor_pro_version": [
+        "3.33.2"
+      ],
+      "_wp_page_template": [
+        "elementor_header_footer"
+      ],
+      "_elementor_data": [
+        "[]"
+      ],
+      "_elementor_import_session_id": [
+        "6937f1742c1a6"
+      ],
+      "surerank_seo_checks": [
+        "a:13:{s:14:\"h2_subheadings\";a:3:{s:6:\"status\";s:7:\"warning\";s:7:\"message\";s:42:\"The page does not contain any subheadings.\";s:4:\"type\";s:4:\"page\";}s:13:\"media_present\";a:3:{s:6:\"status\";s:7:\"warning\";s:7:\"message\";s:39:\"No images or videos found on this page.\";s:4:\"type\";s:4:\"page\";}s:13:\"links_present\";a:3:{s:6:\"status\";s:7:\"warning\";s:7:\"message\";s:27:\"No links found on the page.\";s:4:\"type\";s:4:\"page\";}s:10:\"url_length\";a:3:{s:6:\"status\";s:7:\"success\";s:7:\"message\";s:35:\"Page URL is short and SEO-friendly.\";s:4:\"type\";s:4:\"page\";}s:19:\"search_engine_title\";a:3:{s:6:\"status\";s:7:\"success\";s:7:\"message\";s:55:\"Search engine title is present and under 60 characters.\";s:4:\"type\";s:4:\"page\";}s:25:\"search_engine_description\";a:3:{s:6:\"status\";s:7:\"warning\";s:7:\"message\";s:49:\"Search engine description is missing on the page.\";s:4:\"type\";s:4:\"page\";}s:13:\"canonical_url\";a:3:{s:6:\"status\";s:7:\"success\";s:7:\"message\";s:37:\"Canonical tag is present on the page.\";s:4:\"type\";s:4:\"page\";}s:15:\"open_graph_tags\";a:3:{s:6:\"status\";s:7:\"success\";s:7:\"message\";s:40:\"Open Graph tags are present on the page.\";s:4:\"type\";s:4:\"page\";}s:16:\"keyword_in_title\";a:3:{s:6:\"status\";s:10:\"suggestion\";s:7:\"message\";s:38:\"No focus keyword set to analyze title.\";s:4:\"type\";s:7:\"keyword\";}s:22:\"keyword_in_description\";a:3:{s:6:\"status\";s:10:\"suggestion\";s:7:\"message\";s:49:\"No focus keyword set to analyze meta description.\";s:4:\"type\";s:7:\"keyword\";}s:14:\"keyword_in_url\";a:3:{s:6:\"status\";s:10:\"suggestion\";s:7:\"message\";s:36:\"No focus keyword set to analyze URL.\";s:4:\"type\";s:7:\"keyword\";}s:18:\"keyword_in_content\";a:3:{s:6:\"status\";s:10:\"suggestion\";s:7:\"message\";s:40:\"No focus keyword set to analyze content.\";s:4:\"type\";s:7:\"keyword\";}s:12:\"broken_links\";a:2:{s:6:\"status\";s:7:\"success\";s:7:\"message\";s:34:\"No broken links found on the page.\";}}"
+      ],
+      "surerank_seo_checks_last_updated": [
+        "1773243721"
+      ],
+      "_edit_last": [
+        "1"
+      ],
+      "_edit_lock": [
+        "1773243721:1"
+      ]
+    },
+    "elementor_raw": "[]",
+    "elementor_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "template": "elementor_header_footer",
+    "public_target_url": "https://tujutaju.ee/about/",
+    "target_url_status": 404,
+    "header_id": 2835,
+    "footer_id": 2836,
+    "nav": "hidden"
+  }
+}
