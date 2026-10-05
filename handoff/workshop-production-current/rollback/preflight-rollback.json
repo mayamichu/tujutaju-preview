@@ -1,0 +1,24 @@
+{
+  "siteurl": "https://tujutaju.ee",
+  "home": "https://tujutaju.ee",
+  "environment": "production",
+  "target_url": "https://tujutaju.ee/workshop/",
+  "target_slug": "workshop",
+  "preflight_http_status": 404,
+  "matching_posts_or_pages": [],
+  "existing_target_post": null,
+  "rollback_data": "No target post or page existed before this build; therefore there was no existing post/meta/template/status or Elementor data to overwrite. Rollback is removal of the newly created Workshop page and its two newly uploaded source assets.",
+  "unrelated_candidate_left_untouched": {
+    "id": 2771,
+    "title": "Elementor #2771",
+    "status": "publish",
+    "url": "https://tujutaju.ee/elementor-2771/",
+    "reason_not_reused": "Not a Workshop page and has unrelated content."
+  },
+  "shared_templates_verified_read_only": [
+    {"id": 2835, "title": "Tujutaju Header — approved production", "post_type": "elementor-hf", "status": "publish"},
+    {"id": 2836, "title": "Tujutaju Footer — approved production", "post_type": "elementor-hf", "status": "publish"}
+  ],
+  "page_template_reference": {"page_id": 2857, "template": "elementor_canvas"},
+  "navigation": "No navigation configuration read or modified. Existing shared templates retained."
+}
