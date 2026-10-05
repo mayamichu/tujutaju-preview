@@ -1,0 +1,32 @@
+{
+  "environment": {
+    "siteurl": "https://tujutaju.ee",
+    "home": "https://tujutaju.ee"
+  },
+  "target": {
+    "url": "https://tujutaju.ee/six-personality-types/",
+    "http_status_before_build": 404,
+    "matching_pages_before_build": [],
+    "page_id": null,
+    "slug": null,
+    "status": null,
+    "template": null,
+    "elementor_data": null,
+    "elementor_sha256": null,
+    "note": "No matching WordPress page or draft existed; the public target returned 404. One page will be created for this approved production build."
+  },
+  "shared_templates": [
+    {"id": 2835, "title": "Tujutaju Header — approved production", "status": "publish"},
+    {"id": 2836, "title": "Tujutaju Footer — approved production", "status": "publish"}
+  ],
+  "vertical_asset": {
+    "attachment_id": 2870,
+    "attachment_title": "pcm-720-personality-structures-vertical.png",
+    "production_url": "https://tujutaju.ee/wp-content/uploads/2026/10/A4.webp",
+    "stored_file": "2026/10/A4.webp",
+    "dimensions": "1200x1698",
+    "http_status": 200,
+    "duplicate_created": false
+  },
+  "navigation": "hidden; no navigation settings will be changed"
+}
