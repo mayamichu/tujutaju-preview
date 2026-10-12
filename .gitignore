@@ -1,0 +1,9 @@
+# Local QA captures and historical handoff work remain on disk, outside the
+# approved English production baseline. Already tracked history is unaffected.
+/.tmp/
+/docs/*
+!/docs/back-to-top-20261012/
+!/docs/EN_BASELINE_2026-10-12.md
+/handoff/*/
+/Tujutaju Design System v1.1.txt
+/home-v3-3144-restored-from-home2966-20260929.json
