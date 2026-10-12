@@ -1,0 +1,98 @@
+{
+  "captured_utc": "2026-10-12T19:42:05+00:00",
+  "siteurl": "https://tujutaju.ee",
+  "home": "https://tujutaju.ee",
+  "show_on_front": "page",
+  "page_on_front": 764,
+  "page_for_posts": 0,
+  "polylang": {
+    "active": true,
+    "version": "3.8.11",
+    "default_language": "en",
+    "options": {
+      "force_lang": 1,
+      "domains": [],
+      "hide_default": true,
+      "rewrite": true,
+      "redirect_lang": true,
+      "browser": false,
+      "media_support": false,
+      "post_types": [
+        "elementor-hf"
+      ],
+      "taxonomies": [],
+      "sync": [],
+      "default_lang": "en"
+    },
+    "languages": [
+      {
+        "term_id": 31,
+        "term_taxonomy_id": 31,
+        "slug": "et",
+        "name": "Eesti",
+        "description": "a:3:{s:6:\"locale\";s:2:\"et\";s:3:\"rtl\";b:0;s:9:\"flag_code\";s:0:\"\";}"
+      },
+      {
+        "term_id": 28,
+        "term_taxonomy_id": 28,
+        "slug": "en",
+        "name": "English",
+        "description": "a:3:{s:6:\"locale\";s:5:\"en_GB\";s:3:\"rtl\";b:0;s:9:\"flag_code\";s:0:\"\";}"
+      }
+    ],
+    "associations": {
+      "764": {
+        "language": "en",
+        "translations": {
+          "en": 764,
+          "et": 2884
+        }
+      },
+      "2835": {
+        "language": "en",
+        "translations": {
+          "en": 2835,
+          "et": 2886
+        }
+      },
+      "2836": {
+        "language": "en",
+        "translations": {
+          "en": 2836,
+          "et": 2887
+        }
+      },
+      "2884": {
+        "language": "et",
+        "translations": {
+          "et": 2884,
+          "en": 764
+        }
+      },
+      "2886": {
+        "language": "et",
+        "translations": {
+          "et": 2886,
+          "en": 2835
+        }
+      },
+      "2887": {
+        "language": "et",
+        "translations": {
+          "et": 2887,
+          "en": 2836
+        }
+      }
+    }
+  },
+  "canvas": {
+    "path": "wp-content/mu-plugins/tujutaju-home-canvas-compat.php",
+    "sha256": "078fe5c701686fa8a8b296573ade3776098fe0ff34359d2911a60b02e1b504c6"
+  },
+  "back_to_top": {
+    "snippet_id": 2882,
+    "status": "publish",
+    "sha256": "7cfec90f4522ab2d74f2ba2b3ba1595ac3016630b8460f455c07a12ac8e7c9f7"
+  },
+  "published_page_count": 14
+}
