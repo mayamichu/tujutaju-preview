@@ -1,62 +1,136 @@
 {
   "desktop": {
-    "copy_identical": true,
-    "section_geometry_exact": true,
-    "native_node_geometry_differences": [],
-    "portrait_tablet_40px_outer_field": true,
-    "heading_styles_identical": true,
-    "no_overflow": true,
-    "fonts_loaded": true,
-    "images_loaded": true,
-    "one_shared_header_footer": true,
-    "navigation_hidden": true
+    "before": {
+      "heroSecond": 0,
+      "heroImageSecond": 109.5858154296875,
+      "situationsPaths": 66,
+      "pathsContexts": 66,
+      "contextsProfile": 66,
+      "profileProcess": 66,
+      "processDetails": 66
+    },
+    "after": {
+      "heroSecond": 0,
+      "heroImageSecond": 109.5858154296875,
+      "situationsPaths": 40,
+      "pathsContexts": 40,
+      "contextsProfile": 40,
+      "profileProcess": 40,
+      "processDetails": 66
+    },
+    "noOverflow": true,
+    "copyAndTypographyPreserved": true,
+    "imagesAndButtonsPreserved": true,
+    "carouselWorks": true,
+    "ctaClickable": true
   },
   "tablet-landscape": {
-    "copy_identical": true,
-    "section_geometry_exact": true,
-    "native_node_geometry_differences": [],
-    "portrait_tablet_40px_outer_field": true,
-    "heading_styles_identical": true,
-    "no_overflow": true,
-    "fonts_loaded": true,
-    "images_loaded": true,
-    "one_shared_header_footer": true,
-    "navigation_hidden": true
+    "before": {
+      "heroSecond": 0,
+      "heroImageSecond": 202.80140686035156,
+      "situationsPaths": 66,
+      "pathsContexts": 66,
+      "contextsProfile": 66,
+      "profileProcess": 66,
+      "processDetails": 66
+    },
+    "after": {
+      "heroSecond": 0,
+      "heroImageSecond": 202.80140686035156,
+      "situationsPaths": 40,
+      "pathsContexts": 40,
+      "contextsProfile": 40,
+      "profileProcess": 40,
+      "processDetails": 66
+    },
+    "noOverflow": true,
+    "copyAndTypographyPreserved": true,
+    "imagesAndButtonsPreserved": true,
+    "carouselWorks": true,
+    "ctaClickable": true
   },
   "tablet-portrait": {
-    "copy_identical": true,
-    "section_geometry_exact": true,
-    "native_node_geometry_differences": [],
-    "portrait_tablet_40px_outer_field": true,
-    "heading_styles_identical": true,
-    "no_overflow": true,
-    "fonts_loaded": true,
-    "images_loaded": true,
-    "one_shared_header_footer": true,
-    "navigation_hidden": true
+    "before": {
+      "heroSecond": 0,
+      "heroImageSecond": 54,
+      "situationsPaths": 66,
+      "pathsContexts": 66,
+      "contextsProfile": 66,
+      "profileProcess": 66,
+      "processDetails": 66
+    },
+    "after": {
+      "heroSecond": 0,
+      "heroImageSecond": 54,
+      "situationsPaths": 26,
+      "pathsContexts": 26,
+      "contextsProfile": 26,
+      "profileProcess": 26,
+      "processDetails": 26
+    },
+    "noOverflow": true,
+    "copyAndTypographyPreserved": true,
+    "imagesAndButtonsPreserved": true,
+    "carouselWorks": true,
+    "ctaClickable": true
   },
   "phone-landscape": {
-    "copy_identical": true,
-    "section_geometry_exact": true,
-    "native_node_geometry_differences": [],
-    "portrait_tablet_40px_outer_field": true,
-    "heading_styles_identical": true,
-    "no_overflow": true,
-    "fonts_loaded": true,
-    "images_loaded": true,
-    "one_shared_header_footer": true,
-    "navigation_hidden": true
+    "before": {
+      "heroSecond": 0,
+      "heroImageSecond": 36,
+      "situationsPaths": 44,
+      "pathsContexts": 54,
+      "contextsProfile": 110,
+      "profileProcess": 66,
+      "processDetails": 54
+    },
+    "after": {
+      "heroSecond": 0,
+      "heroImageSecond": 36,
+      "situationsPaths": 44,
+      "pathsContexts": 40,
+      "contextsProfile": 40,
+      "profileProcess": 40,
+      "processDetails": 54
+    },
+    "noOverflow": true,
+    "copyAndTypographyPreserved": true,
+    "imagesAndButtonsPreserved": true,
+    "carouselWorks": true,
+    "ctaClickable": true,
+    "heroGapRatio": 0.37996377316427477,
+    "heroGaps": [
+      42.609375,
+      69.53125
+    ],
+    "ctaHeadingLines": 1,
+    "ctaBottomRight": true,
+    "ctaHeightBefore": 271.109375,
+    "ctaHeightAfter": 204.71875
   },
   "phone-portrait": {
-    "copy_identical": true,
-    "section_geometry_exact": true,
-    "native_node_geometry_differences": [],
-    "portrait_tablet_40px_outer_field": true,
-    "heading_styles_identical": true,
-    "no_overflow": true,
-    "fonts_loaded": true,
-    "images_loaded": true,
-    "one_shared_header_footer": true,
-    "navigation_hidden": true
+    "before": {
+      "heroSecond": 0,
+      "heroImageSecond": 20,
+      "situationsPaths": 33,
+      "pathsContexts": 38,
+      "contextsProfile": 24,
+      "profileProcess": 20,
+      "processDetails": 38
+    },
+    "after": {
+      "heroSecond": 0,
+      "heroImageSecond": 20,
+      "situationsPaths": 38,
+      "pathsContexts": 38,
+      "contextsProfile": 66,
+      "profileProcess": 66,
+      "processDetails": 38
+    },
+    "noOverflow": true,
+    "copyAndTypographyPreserved": true,
+    "imagesAndButtonsPreserved": true,
+    "carouselWorks": true,
+    "ctaClickable": true
   }
 }
