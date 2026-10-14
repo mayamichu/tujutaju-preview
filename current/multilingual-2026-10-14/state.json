@@ -1,0 +1,149 @@
+{
+    "captured_utc": "2026-10-14T16:07:02+00:00",
+    "environment": "production",
+    "siteurl": "https://tujutaju.ee",
+    "home": "https://tujutaju.ee",
+    "show_on_front": "page",
+    "page_on_front": 764,
+    "page_for_posts": 0,
+    "polylang": {
+        "active": true,
+        "version": "3.8.11",
+        "default_language": "en",
+        "options": {
+            "force_lang": 1,
+            "domains": [],
+            "hide_default": true,
+            "rewrite": true,
+            "redirect_lang": true,
+            "browser": false,
+            "media_support": false,
+            "post_types": [
+                "elementor-hf"
+            ],
+            "taxonomies": [],
+            "sync": [],
+            "default_lang": "en"
+        },
+        "languages": [
+            {
+                "term_id": 31,
+                "term_taxonomy_id": 31,
+                "slug": "et",
+                "name": "Eesti",
+                "description": "a:3:{s:6:\"locale\";s:2:\"et\";s:3:\"rtl\";b:0;s:9:\"flag_code\";s:0:\"\";}"
+            },
+            {
+                "term_id": 28,
+                "term_taxonomy_id": 28,
+                "slug": "en",
+                "name": "English",
+                "description": "a:3:{s:6:\"locale\";s:5:\"en_GB\";s:3:\"rtl\";b:0;s:9:\"flag_code\";s:0:\"\";}"
+            }
+        ],
+        "associations": {
+            "764": {
+                "language": "en",
+                "translations": {
+                    "en": 764,
+                    "et": 2884
+                }
+            },
+            "2884": {
+                "language": "et",
+                "translations": {
+                    "et": 2884,
+                    "en": 764
+                }
+            },
+            "2835": {
+                "language": "en",
+                "translations": {
+                    "en": 2835,
+                    "et": 2886
+                }
+            },
+            "2836": {
+                "language": "en",
+                "translations": {
+                    "en": 2836,
+                    "et": 2887
+                }
+            },
+            "2886": {
+                "language": "et",
+                "translations": {
+                    "et": 2886,
+                    "en": 2835
+                }
+            },
+            "2887": {
+                "language": "et",
+                "translations": {
+                    "et": 2887,
+                    "en": 2836
+                }
+            }
+        }
+    },
+    "rendered_home_meta": {
+        "en": {
+            "url": "https://tujutaju.ee/",
+            "http_status": 200,
+            "title": "Home - tujutaju.ee",
+            "description": "Maia Mitšulis, Estonia’s first certified PCM trainer. Practical tools to understand personality, reduce stress and communicate better at work and beyond.",
+            "canonical": "https://tujutaju.ee/"
+        },
+        "et": {
+            "url": "https://tujutaju.ee/et/",
+            "http_status": 200,
+            "title": "Selgus suhtluses. Rohkem kergust suhetes. - tujutaju.ee",
+            "description": "Process Communication Model (PCM) aitab mõista suhtlemist, iseennast ja stressimustreid. Praktilised tööriistad inimestele, meeskondadele ja juhtidele.",
+            "canonical": "https://tujutaju.ee/et/"
+        }
+    },
+    "template_media": {
+        "2835": [
+            "header_contrast"
+        ],
+        "2836": [
+            "footer_white",
+            "pcm_unchanged"
+        ],
+        "2886": [
+            "header_contrast"
+        ],
+        "2887": [
+            "footer_white",
+            "pcm_unchanged"
+        ]
+    },
+    "media": {
+        "header_contrast": {
+            "url": "https://tujutaju.ee/wp-content/uploads/2026/10/Tujutaju-logo-contrast.png",
+            "attachment_id": 2893,
+            "title": "tujutaju logo contrast",
+            "mime": "image/png",
+            "file_sha256": "8d41c41f93ceffea2dc0c62a2e0e1eec59c8ee908b3bbd83babcb6a571aa500c"
+        },
+        "footer_white": {
+            "url": "https://tujutaju.ee/wp-content/uploads/2026/10/Tujutaju-logo-footer-white.webp",
+            "attachment_id": 2895,
+            "title": "tujutaju logo footer white",
+            "mime": "image/webp",
+            "file_sha256": "4862dd3c1069393fbc877fca0aa9a22e3c79bf6d5a6407f0a138514cd6f9afd0"
+        },
+        "pcm_unchanged": {
+            "url": "https://tujutaju.ee/wp-content/uploads/2026/09/PCM-logo-white-backgroundslogan-V1-2021-rgb-scaled.png",
+            "attachment_id": null,
+            "title": null,
+            "mime": null,
+            "file_sha256": "5f6827dbe0f0b0db0190b07d99de450098bacc6e59ca4d4c88118dece05fe26b"
+        }
+    },
+    "unchanged_references": {
+        "global_custom_css_sha256": "32de6bf58aaa2b304017e41770a55e3b92b1a5d3fdd282d57af508371f8f9938",
+        "canvas_compat_sha256": "078fe5c701686fa8a8b296573ade3776098fe0ff34359d2911a60b02e1b504c6",
+        "kit_626_elementor_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+}
