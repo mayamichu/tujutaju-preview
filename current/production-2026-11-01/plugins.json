@@ -1,0 +1,80 @@
+[
+  {
+    "active": true,
+    "file": "akismet/akismet.php",
+    "name": "Akismet Anti-spam: Spam Protection",
+    "version": "5.7.2"
+  },
+  {
+    "active": true,
+    "file": "angie/angie.php",
+    "name": "Angie",
+    "version": "1.1.19"
+  },
+  {
+    "active": true,
+    "file": "disable-comments/disable-comments.php",
+    "name": "Disable Comments",
+    "version": "2.9.1"
+  },
+  {
+    "active": true,
+    "file": "duplicate-page/duplicatepage.php",
+    "name": "Duplicate Page",
+    "version": "4.5.9"
+  },
+  {
+    "active": true,
+    "file": "elementor/elementor.php",
+    "name": "Elementor",
+    "version": "4.3.5"
+  },
+  {
+    "active": true,
+    "file": "image-optimization/image-optimization.php",
+    "name": "Image Optimisation - Optimise Images and Convert to WebP or AVIF",
+    "version": "1.7.7"
+  },
+  {
+    "active": true,
+    "file": "better-wp-security/better-wp-security.php",
+    "name": "Kadence Security Basic",
+    "version": "10.0.6"
+  },
+  {
+    "active": true,
+    "file": "suretriggers/suretriggers.php",
+    "name": "OttoKit",
+    "version": "1.1.43"
+  },
+  {
+    "active": true,
+    "file": "polylang/polylang.php",
+    "name": "Polylang",
+    "version": "3.9.1"
+  },
+  {
+    "active": true,
+    "file": "sureforms/sureforms.php",
+    "name": "SureForms",
+    "version": "2.13.0"
+  },
+  {
+    "active": true,
+    "file": "surerank/surerank.php",
+    "name": "SureRank SEO",
+    "version": "1.10.3"
+  },
+  {
+    "active": true,
+    "file": "header-footer-elementor/header-footer-elementor.php",
+    "name": "Ultimate Addons for Elementor (UAE)",
+    "version": "2.9.6"
+  },
+  {
+    "active": true,
+    "file": "updraftplus/updraftplus.php",
+    "name": "UpdraftPlus - Backup/Restore",
+    "version": "1.26.14"
+  }
+]

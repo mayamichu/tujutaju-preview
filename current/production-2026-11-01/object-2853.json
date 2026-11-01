@@ -1,0 +1,17 @@
+{
+  "id": 2853,
+  "post_type": "wp_font_face",
+  "status": "publish",
+  "title": "inter;normal;500;100%;U+0-10FFFF",
+  "slug": "internormal500100u0-10ffff",
+  "url": "https://tujutaju.ee/internormal500100u0-10ffff/",
+  "post_parent": "2842",
+  "menu_order": "0",
+  "modified_gmt": "2026-10-02 15:38:39",
+  "content": "{\"src\":\"https://tujutaju.ee/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2\",\"fontWeight\":\"500\",\"fontStyle\":\"normal\",\"fontFamily\":\"Inter\",\"preview\":\"https://s.w.org/images/fonts/wp-7.1/previews/inter/inter-500-normal.svg\"}",
+  "excerpt": "",
+  "terms": [],
+  "meta": {
+    "_wp_font_face_file": "UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "post_type": "page",
+  "status": "publish",
+  "title": "Privacy Policy",
+  "slug": "privacy-policy",
+  "url": "https://tujutaju.ee/privacy-policy/",
+  "post_parent": "0",
+  "menu_order": "0",
+  "modified_gmt": "2026-10-02 16:21:47",
+  "content": "",
+  "excerpt": "",
+  "terms": [
+    {
+      "domain": "language",
+      "nicename": "en",
+      "name": "English"
+    }
+  ],
+  "meta": {
+    "_wp_page_template": "elementor_canvas",
+    "_elementor_edit_mode": "builder",
+    "_elementor_data": "[{\"id\":\"ppwrap01\",\"elType\":\"e-flexbox\",\"settings\":[],\"elements\":[{\"id\":\"pphtml01\",\"elType\":\"widget\",\"settings\":{\"html\":\"<style>\\n.pp-page{background:#fff;color:#626E98;padding:clamp(56px,8vw,104px) clamp(22px,5vw,64px) clamp(72px,10vw,128px);}\\n.pp-page__inner{width:100%;max-width:760px;margin:0 auto;}\\n.pp-page h1{margin:0 0 42px;color:#626E98;font:700 18px/1.2 Poppins,sans-serif;letter-spacing:.12em;text-transform:uppercase;}\\n.pp-page h2{margin:22px 0 4px;color:#626E98;font:700 17px/1.45 \\\"Source Sans 3\\\",sans-serif;}\\n.pp-page p{margin:0 0 10px;color:#626E98;font:400 17px/1.45 \\\"Source Sans 3\\\",sans-serif;}\\n.pp-page a{color:#626E98;text-decoration:underline;text-underline-offset:2px;}\\n@media(max-width:760px){.pp-page{padding:48px 22px 76px}.pp-page h1{margin-bottom:34px}.pp-page h2{font-size:17px;line-height:1.45;margin-top:20px}.pp-page p{font-size:17px}}\\n</style>\\n<main class=\\\"pp-page\\\"><div class=\\\"pp-page__inner\\\">\\n<h1>PRIVACY POLICY</h1>\\n<h2>1. Who we are</h2>\\n<p>This website is operated by Tujutaju O\\u00dc, registry code 17203049, Tallinn, Estonia. Contact: <a href=\\\"mailto:contact@tujutaju.ee\\\">contact@tujutaju.ee</a></p>\\n<h2>2. What data we process</h2>\\n<p>This website does not collect personal data through forms, registration or tracking tools. If you choose to email us, we receive your email address, your name (if shown in the email) and the content of your message.</p>\\n<h2>3. Purpose and legal basis</h2>\\n<p>We use this information only to reply to your message and, if needed, to take steps toward providing our services. The legal basis is our legitimate interest in responding to enquiries (GDPR Art. 6(1)(f)) or steps taken at your request before entering into a contract (Art. 6(1)(b)).</p>\\n<h2>4. Retention</h2>\\n<p>We keep email correspondence for as long as needed to handle your enquiry and for up to 12 months afterwards. If we enter into a contract, we keep the relevant data for the periods required by law.</p>\\n<h2>5. Sharing</h2>\\n<p>We do not sell your data or share it with third parties for marketing. Our email is handled by Veebimajutus.ee, which processes data on our behalf.</p>\\n<h2>6. Cookies and analytics</h2>\\n<p>This website does not use analytics or marketing cookies and does not track visitors. Our hosting provider may keep standard technical server logs (such as IP address) for security and operation of the site.</p>\\n<h2>7. Your rights</h2>\\n<p>You have the right to access, correct or delete your data, restrict or object to its processing, and request a copy of it. To exercise these rights, contact us at <a href=\\\"mailto:contact@tujutaju.ee\\\">contact@tujutaju.ee</a>. You may also lodge a complaint with the Estonian Data Protection Inspectorate (Andmekaitse Inspektsioon, <a href=\\\"https://www.aki.ee/\\\">www.aki.ee</a>).</p>\\n<p>Last updated: 2 October 2026</p>\\n</div></main>\"},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":false}]",
+    "_elementor_page_settings": "a:1:{s:10:\"hide_title\";s:3:\"yes\";}"
+  },
+  "elementor_data_sha256": "a85fe0cf1c3fb928d6be7d25b746fb2355ea3ec3efd9de3e331cd0653bf44635"
+}

@@ -1,0 +1,251 @@
+{
+  "captured_date": "2026-11-01",
+  "site": "https://tujutaju.ee/",
+  "theme": "hello-elementor",
+  "source": "Fresh WordPress Tools > Export download; live Additional CSS and Plugins UI readback.",
+  "object_counts": {
+    "angie_snippet": 1,
+    "custom_css": 1,
+    "elementor_library": 1,
+    "elementor-hf": 4,
+    "page": 14,
+    "nav_menu_item": 1,
+    "wp_font_family": 3,
+    "wp_font_face": 12
+  },
+  "objects": [
+    {
+      "id": 2882,
+      "type": "angie_snippet",
+      "title": "Tujutaju — Back to top",
+      "url": "https://tujutaju.ee/?angie_snippet=tujutaju-back-to-top"
+    },
+    {
+      "id": 2806,
+      "type": "custom_css",
+      "title": "hello-elementor",
+      "url": "https://tujutaju.ee/hello-elementor/"
+    },
+    {
+      "id": 626,
+      "type": "elementor_library",
+      "title": "Default Kit",
+      "url": "https://tujutaju.ee/?elementor_library=default-kit-2"
+    },
+    {
+      "id": 2835,
+      "type": "elementor-hf",
+      "title": "Tujutaju Header — approved production",
+      "url": "https://tujutaju.ee/elementor-hf/tujutaju-header-approved-production/"
+    },
+    {
+      "id": 2836,
+      "type": "elementor-hf",
+      "title": "Tujutaju Footer — approved production",
+      "url": "https://tujutaju.ee/elementor-hf/tujutaju-footer-approved-production/"
+    },
+    {
+      "id": 2886,
+      "type": "elementor-hf",
+      "title": "Tujutaju Header — approved production — ET structure",
+      "url": "https://tujutaju.ee/et/elementor-hf/tujutaju-header-approved-production-et/"
+    },
+    {
+      "id": 2887,
+      "type": "elementor-hf",
+      "title": "Tujutaju Footer — approved production — ET structure",
+      "url": "https://tujutaju.ee/et/elementor-hf/tujutaju-footer-approved-production-et/"
+    },
+    {
+      "id": 3,
+      "type": "page",
+      "title": "Privacy Policy",
+      "url": "https://tujutaju.ee/privacy-policy/"
+    },
+    {
+      "id": 258,
+      "type": "nav_menu_item",
+      "title": "Privacy & Cookies",
+      "url": "https://tujutaju.ee/privacy-cookies/"
+    },
+    {
+      "id": 302,
+      "type": "page",
+      "title": "Contact",
+      "url": "https://tujutaju.ee/contact/"
+    },
+    {
+      "id": 306,
+      "type": "page",
+      "title": "About",
+      "url": "https://tujutaju.ee/about/"
+    },
+    {
+      "id": 310,
+      "type": "page",
+      "title": "What is the Process Communication Model (PCM)?",
+      "url": "https://tujutaju.ee/pcm/"
+    },
+    {
+      "id": 341,
+      "type": "page",
+      "title": "Global Styles",
+      "url": "https://tujutaju.ee/global-styles/"
+    },
+    {
+      "id": 764,
+      "type": "page",
+      "title": "Home",
+      "url": "https://tujutaju.ee/"
+    },
+    {
+      "id": 765,
+      "type": "page",
+      "title": "Trainings",
+      "url": "https://tujutaju.ee/trainings/"
+    },
+    {
+      "id": 2044,
+      "type": "page",
+      "title": "Consultations",
+      "url": "https://tujutaju.ee/consultations/"
+    },
+    {
+      "id": 2771,
+      "type": "page",
+      "title": "Elementor #2771",
+      "url": "https://tujutaju.ee/elementor-2771/"
+    },
+    {
+      "id": 2857,
+      "type": "page",
+      "title": "Services",
+      "url": "https://tujutaju.ee/services/"
+    },
+    {
+      "id": 2863,
+      "type": "page",
+      "title": "Six Languages of Communication Workshop | Tujutaju",
+      "url": "https://tujutaju.ee/workshop/"
+    },
+    {
+      "id": 2864,
+      "type": "page",
+      "title": "PCM Leadership Training",
+      "url": "https://tujutaju.ee/leadership-training/"
+    },
+    {
+      "id": 2840,
+      "type": "wp_font_family",
+      "title": "Source Sans 3",
+      "url": "https://tujutaju.ee/source-sans-3/"
+    },
+    {
+      "id": 2843,
+      "type": "wp_font_face",
+      "title": "source sans 3;normal;700;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/source-sans-3normal700100u0-10ffff/"
+    },
+    {
+      "id": 2844,
+      "type": "wp_font_face",
+      "title": "source sans 3;normal;600;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/source-sans-3normal600100u0-10ffff/"
+    },
+    {
+      "id": 2845,
+      "type": "wp_font_face",
+      "title": "source sans 3;normal;500;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/source-sans-3normal500100u0-10ffff/"
+    },
+    {
+      "id": 2846,
+      "type": "wp_font_face",
+      "title": "source sans 3;normal;400;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/source-sans-3normal400100u0-10ffff/"
+    },
+    {
+      "id": 2847,
+      "type": "wp_font_face",
+      "title": "manrope;normal;700;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/manropenormal700100u0-10ffff/"
+    },
+    {
+      "id": 2848,
+      "type": "wp_font_face",
+      "title": "manrope;normal;600;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/manropenormal600100u0-10ffff/"
+    },
+    {
+      "id": 2849,
+      "type": "wp_font_face",
+      "title": "manrope;normal;400;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/manropenormal400100u0-10ffff/"
+    },
+    {
+      "id": 2850,
+      "type": "wp_font_face",
+      "title": "manrope;normal;500;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/manropenormal500100u0-10ffff/"
+    },
+    {
+      "id": 2851,
+      "type": "wp_font_face",
+      "title": "inter;normal;700;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/internormal700100u0-10ffff/"
+    },
+    {
+      "id": 2852,
+      "type": "wp_font_face",
+      "title": "inter;normal;600;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/internormal600100u0-10ffff/"
+    },
+    {
+      "id": 2853,
+      "type": "wp_font_face",
+      "title": "inter;normal;500;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/internormal500100u0-10ffff/"
+    },
+    {
+      "id": 2854,
+      "type": "wp_font_face",
+      "title": "inter;normal;400;100%;U+0-10FFFF",
+      "url": "https://tujutaju.ee/internormal400100u0-10ffff/"
+    },
+    {
+      "id": 2871,
+      "type": "page",
+      "title": "Six Personality Types",
+      "url": "https://tujutaju.ee/six-personality-types/"
+    },
+    {
+      "id": 2884,
+      "type": "page",
+      "title": "Selgus suhtluses. Rohkem kergust suhetes.",
+      "url": "https://tujutaju.ee/et/"
+    },
+    {
+      "id": 2841,
+      "type": "wp_font_family",
+      "title": "Manrope",
+      "url": "https://tujutaju.ee/manrope/"
+    },
+    {
+      "id": 2842,
+      "type": "wp_font_family",
+      "title": "Inter",
+      "url": "https://tujutaju.ee/inter/"
+    }
+  ],
+  "elementor_pro": {
+    "installed": false,
+    "subscription_cancelled": "Confirmed by Maia in conversation"
+  },
+  "updraftplus_backups": {
+    "date": "2026-11-01",
+    "first": "Before CSS migration; Pro active. Creation confirmed by Maia.",
+    "second": "After CSS migration and final Workshop/PCM fixes; Pro disabled. Creation confirmed by Maia.",
+    "times": "Not recorded"
+  },
+  "boundary": "Source/content checkpoint only. Full database, media bytes, plugin/theme binaries, server configuration, credentials, unpublished pages, form submissions and security logs are not included. Use UpdraftPlus for full recovery. Canvas compatibility MU plugin inherited from 12 Oct foundation; not freshly recaptured."
+}

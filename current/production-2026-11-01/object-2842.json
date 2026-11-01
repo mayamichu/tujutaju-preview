@@ -1,0 +1,15 @@
+{
+  "id": 2842,
+  "post_type": "wp_font_family",
+  "status": "publish",
+  "title": "Inter",
+  "slug": "inter",
+  "url": "https://tujutaju.ee/inter/",
+  "post_parent": "0",
+  "menu_order": "0",
+  "modified_gmt": "2026-10-02 15:38:39",
+  "content": "{\"fontFamily\":\"Inter, sans-serif\",\"preview\":\"https://s.w.org/images/fonts/wp-7.1/previews/inter/inter.svg\"}",
+  "excerpt": "",
+  "terms": [],
+  "meta": {}
+}

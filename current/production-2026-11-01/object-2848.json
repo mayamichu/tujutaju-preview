@@ -1,0 +1,17 @@
+{
+  "id": 2848,
+  "post_type": "wp_font_face",
+  "status": "publish",
+  "title": "manrope;normal;600;100%;U+0-10FFFF",
+  "slug": "manropenormal600100u0-10ffff",
+  "url": "https://tujutaju.ee/manropenormal600100u0-10ffff/",
+  "post_parent": "2841",
+  "menu_order": "0",
+  "modified_gmt": "2026-10-02 15:38:39",
+  "content": "{\"src\":\"https://tujutaju.ee/wp-content/uploads/fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_A87jxeN7B.woff2\",\"fontWeight\":\"600\",\"fontStyle\":\"normal\",\"fontFamily\":\"Manrope\",\"preview\":\"https://s.w.org/images/fonts/wp-7.1/previews/manrope/manrope-600-normal.svg\"}",
+  "excerpt": "",
+  "terms": [],
+  "meta": {
+    "_wp_font_face_file": "xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_A87jxeN7B.woff2"
+  }
+}
